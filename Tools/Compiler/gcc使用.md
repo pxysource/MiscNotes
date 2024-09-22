@@ -62,3 +62,10 @@ This is my printf.
 
 ```
 
+# -print-libgcc-file-name
+
+```shell
+linux@ubuntu:~/linux_learn/makefile_make/test$ gcc -print-libgcc-file-name
+/usr/lib/gcc/x86_64-linux-gnu/11/libgcc.a
+```
+
