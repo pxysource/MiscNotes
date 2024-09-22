@@ -1,0 +1,495 @@
+{
+  "rootTopicKey": "e0cf1bf6-d233-405e-9780-d18c24b03246",
+  "editorRootTopicKey": "e0cf1bf6-d233-405e-9780-d18c24b03246",
+  "focusKey": "25b16482-9297-46b3-a74a-0b5374e41f9a",
+  "extData": {},
+  "topics": [
+    {
+      "key": "f4abee26-f162-41e9-87cb-181ab7b3bfee",
+      "parentKey": "96844e8f-75c3-40d3-9b83-b56702fdd9ed",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "1. 系统上电时开始执行"
+        }
+      ]
+    },
+    {
+      "key": "8e11f036-9884-41fb-aa18-058e258c5f42",
+      "parentKey": "00a509d5-96d1-4973-853b-7acc26bcd79b",
+      "subKeys": [
+        "16899195-9b27-4ad8-b533-6d4af015c7d8",
+        "e40f15ee-f199-4d60-ad78-db56daf8c8c2"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "启动方式"
+        }
+      ]
+    },
+    {
+      "key": "e0cf1bf6-d233-405e-9780-d18c24b03246",
+      "parentKey": null,
+      "subKeys": [
+        "25b16482-9297-46b3-a74a-0b5374e41f9a",
+        "e54c8363-7cc0-49b4-9352-a1eccfe8795c",
+        "7f2a3046-c71e-457b-8c19-8705b1ada891"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "系统移植"
+        }
+      ]
+    },
+    {
+      "key": "403fe671-3a56-463d-afc3-c4307508a7c0",
+      "parentKey": "c1ee59d5-c22a-4d86-aaf0-ace2370c2071",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "nfs"
+        }
+      ]
+    },
+    {
+      "key": "2e10edcd-2afd-4ef7-bd2d-7ba8a8419078",
+      "parentKey": "be29884b-0233-4207-aacf-ceb9a2d60d42",
+      "subKeys": [
+        "4dc970db-8e27-46b3-b786-7025e7a34a8f"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "通用概念"
+        }
+      ]
+    },
+    {
+      "key": "7e318cbd-fe74-42c4-8f53-4e1cb18b0fc2",
+      "parentKey": "16899195-9b27-4ad8-b533-6d4af015c7d8",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "MIPS CPU: 0xBFC00000"
+        }
+      ]
+    },
+    {
+      "key": "00a509d5-96d1-4973-853b-7acc26bcd79b",
+      "parentKey": "25b16482-9297-46b3-a74a-0b5374e41f9a",
+      "subKeys": [
+        "96844e8f-75c3-40d3-9b83-b56702fdd9ed",
+        "8e11f036-9884-41fb-aa18-058e258c5f42",
+        "be29884b-0233-4207-aacf-ceb9a2d60d42"
+      ],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Bootloader简介\n(u-boot是bootloader中广泛使用的一种)"
+        }
+      ]
+    },
+    {
+      "key": "822f487e-0213-4991-b631-82ca7e9c202c",
+      "parentKey": "c1ee59d5-c22a-4d86-aaf0-ace2370c2071",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "USB"
+        }
+      ]
+    },
+    {
+      "key": "4dc970db-8e27-46b3-b786-7025e7a34a8f",
+      "parentKey": "2e10edcd-2afd-4ef7-bd2d-7ba8a8419078",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "嵌入式Linux系统软件分层"
+        }
+      ]
+    },
+    {
+      "key": "be29884b-0233-4207-aacf-ceb9a2d60d42",
+      "parentKey": "00a509d5-96d1-4973-853b-7acc26bcd79b",
+      "subKeys": [
+        "2e10edcd-2afd-4ef7-bd2d-7ba8a8419078"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": " Bootloader的结构"
+        }
+      ]
+    },
+    {
+      "key": "c1ee59d5-c22a-4d86-aaf0-ace2370c2071",
+      "parentKey": "55368481-db1d-4c7b-993f-8381a9808c84",
+      "subKeys": [
+        "449e1bf0-c35a-4923-aec5-cd1b27c2f031",
+        "403fe671-3a56-463d-afc3-c4307508a7c0",
+        "822f487e-0213-4991-b631-82ca7e9c202c"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "网络"
+        }
+      ]
+    },
+    {
+      "key": "6a10dc81-8ae3-4b8b-b460-4da06a45c8e6",
+      "parentKey": "96844e8f-75c3-40d3-9b83-b56702fdd9ed",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "3. 准备好软件环境"
+        }
+      ]
+    },
+    {
+      "key": "449e1bf0-c35a-4923-aec5-cd1b27c2f031",
+      "parentKey": "c1ee59d5-c22a-4d86-aaf0-ace2370c2071",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "tftp"
+        }
+      ]
+    },
+    {
+      "key": "3a61ecee-1b4c-4fdb-83f6-511195076368",
+      "parentKey": "e40f15ee-f199-4d60-ad78-db56daf8c8c2",
+      "subKeys": [
+        "a69be590-be37-4e5e-8466-73776cfb55c4"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Downloading"
+        }
+      ]
+    },
+    {
+      "key": "16899195-9b27-4ad8-b533-6d4af015c7d8",
+      "parentKey": "8e11f036-9884-41fb-aa18-058e258c5f42",
+      "subKeys": [
+        "7e318cbd-fe74-42c4-8f53-4e1cb18b0fc2",
+        "3de6c098-9b65-4ab2-9f88-afab1d4ffb80"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "启动地址"
+        }
+      ]
+    },
+    {
+      "key": "5ff30800-40c1-49a3-8c25-fcc814e21c2d",
+      "parentKey": "96844e8f-75c3-40d3-9b83-b56702fdd9ed",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "2. 初始化硬件设备"
+        }
+      ]
+    },
+    {
+      "key": "bf2d699c-21a1-48ab-a3c9-5c8db99edbff",
+      "parentKey": "55368481-db1d-4c7b-993f-8381a9808c84",
+      "subKeys": [
+        "424bad7b-c3b7-47ee-a4f3-663523cc330a"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "串口"
+        }
+      ]
+    },
+    {
+      "key": "424bad7b-c3b7-47ee-a4f3-663523cc330a",
+      "parentKey": "bf2d699c-21a1-48ab-a3c9-5c8db99edbff",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "xmodem/ymodem/zmodem协议"
+        }
+      ]
+    },
+    {
+      "key": "e54c8363-7cc0-49b4-9352-a1eccfe8795c",
+      "parentKey": "e0cf1bf6-d233-405e-9780-d18c24b03246",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Linux内核移植"
+        }
+      ]
+    },
+    {
+      "key": "7f2a3046-c71e-457b-8c19-8705b1ada891",
+      "parentKey": "e0cf1bf6-d233-405e-9780-d18c24b03246",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "文件系统制作"
+        }
+      ]
+    },
+    {
+      "key": "3de6c098-9b65-4ab2-9f88-afab1d4ffb80",
+      "parentKey": "16899195-9b27-4ad8-b533-6d4af015c7d8",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "ARM CPU: 0x00000000"
+        }
+      ]
+    },
+    {
+      "key": "e40f15ee-f199-4d60-ad78-db56daf8c8c2",
+      "parentKey": "8e11f036-9884-41fb-aa18-058e258c5f42",
+      "subKeys": [
+        "2028a180-0935-4119-b08b-1af61fe6c5a6",
+        "3a61ecee-1b4c-4fdb-83f6-511195076368"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Operations Mode"
+        }
+      ]
+    },
+    {
+      "key": "e0ecdb3c-dd65-4338-a931-ffc5197d756d",
+      "parentKey": "2028a180-0935-4119-b08b-1af61fe6c5a6",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "将OS加载到RAM中运行，不与用户交互"
+        }
+      ]
+    },
+    {
+      "key": "55368481-db1d-4c7b-993f-8381a9808c84",
+      "parentKey": "a69be590-be37-4e5e-8466-73776cfb55c4",
+      "subKeys": [
+        "bf2d699c-21a1-48ab-a3c9-5c8db99edbff",
+        "c1ee59d5-c22a-4d86-aaf0-ace2370c2071"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "下载方式"
+        }
+      ]
+    },
+    {
+      "key": "96844e8f-75c3-40d3-9b83-b56702fdd9ed",
+      "parentKey": "00a509d5-96d1-4973-853b-7acc26bcd79b",
+      "subKeys": [
+        "f4abee26-f162-41e9-87cb-181ab7b3bfee",
+        "5ff30800-40c1-49a3-8c25-fcc814e21c2d",
+        "6a10dc81-8ae3-4b8b-b460-4da06a45c8e6",
+        "b59bbb4c-febb-4925-8d40-3779c44a7cac"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "作用"
+        }
+      ]
+    },
+    {
+      "key": "a69be590-be37-4e5e-8466-73776cfb55c4",
+      "parentKey": "3a61ecee-1b4c-4fdb-83f6-511195076368",
+      "subKeys": [
+        "55368481-db1d-4c7b-993f-8381a9808c84"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "可与用户交互，并从主机(HOST)下载文件"
+        }
+      ]
+    },
+    {
+      "key": "2028a180-0935-4119-b08b-1af61fe6c5a6",
+      "parentKey": "e40f15ee-f199-4d60-ad78-db56daf8c8c2",
+      "subKeys": [
+        "e0ecdb3c-dd65-4338-a931-ffc5197d756d"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Boot loading"
+        }
+      ]
+    },
+    {
+      "key": "25b16482-9297-46b3-a74a-0b5374e41f9a",
+      "parentKey": "e0cf1bf6-d233-405e-9780-d18c24b03246",
+      "subKeys": [
+        "00a509d5-96d1-4973-853b-7acc26bcd79b"
+      ],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "u-boot移植"
+        }
+      ]
+    },
+    {
+      "key": "b59bbb4c-febb-4925-8d40-3779c44a7cac",
+      "parentKey": "96844e8f-75c3-40d3-9b83-b56702fdd9ed",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "4. 调用操作系统内核"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 0,
+    "theme": {
+      "name": "theme3",
+      "randomColor": false,
+      "background": "#A9DEF9",
+      "highlightColor": "#50C9CE",
+      "marginH": 50,
+      "marginV": 20,
+      "contentStyle": {
+        "lineHeight": "1.5"
+      },
+      "linkStyle": {
+        "lineRadius": 5
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "background": "#FF99C8",
+          "color": "#fff",
+          "fontSize": "34px",
+          "borderRadius": "5px",
+          "padding": "16px 18px 16px 18px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "2px",
+          "lineColor": "#43a9ff"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "background": "#FCF6BD",
+          "borderWidth": "1px",
+          "borderStyle": "solid",
+          "borderColor": "#E4C1F9",
+          "borderRadius": "5px",
+          "color": "rgb(103,103,103)",
+          "fontSize": "14px",
+          "padding": "6px 10px 5px 10px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "2px",
+          "lineColor": "#43a9ff"
+        }
+      },
+      "normalTopic": {
+        "contentStyle": {
+          "background": "#E4FDE1",
+          "borderRadius": "5px",
+          "color": "rgb(103,103,103)",
+          "fontSize": "13px",
+          "padding": "3px 9px 4px",
+          "boxShadow": "1px 1px 1px #ccc"
+        },
+        "subLinkStyle": {
+          "lineType": "round",
+          "lineRadius": 5,
+          "lineWidth": "1px",
+          "lineColor": "#43a9ff"
+        }
+      }
+    }
+  },
+  "formatVersion": "0.0"
+}

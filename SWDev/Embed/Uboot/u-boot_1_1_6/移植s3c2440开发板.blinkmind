@@ -1,0 +1,394 @@
+{
+  "rootTopicKey": "c017554a-5664-45c9-9514-a775e74fcb4a",
+  "editorRootTopicKey": "c017554a-5664-45c9-9514-a775e74fcb4a",
+  "focusKey": "ec707907-e544-4805-8aeb-d561e7196117",
+  "extData": {},
+  "topics": [
+    {
+      "key": "f154b22c-c88e-4115-8c0a-2eecc79225d6",
+      "parentKey": "c94297fd-4c88-44d5-8a03-394fa76a23fb",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "修改get_PCLK函数"
+        }
+      ]
+    },
+    {
+      "key": "4302d4db-6fcc-4518-b09a-ad2a1466c2d0",
+      "parentKey": "c04c5bd1-0569-4c06-afa0-6b641df851ef",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "位宽为32，检查宏\"B6-BWSCON\"的值是否为32"
+        }
+      ]
+    },
+    {
+      "key": "79f18b8f-ed13-49c2-a997-f84cd8ac53d1",
+      "parentKey": "1635fce4-eb1d-4be3-b3b9-540d5e17d68e",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": " 添加pxysmdk2440_config配置项"
+        }
+      ]
+    },
+    {
+      "key": "45c1750e-5baa-4ffd-8cc4-117c11eae08b",
+      "parentKey": "c94297fd-4c88-44d5-8a03-394fa76a23fb",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "修改get_PLLCLK函数"
+        }
+      ]
+    },
+    {
+      "key": "7d1b4ebc-cad8-4553-9614-d914b055749a",
+      "parentKey": "9fb8781b-7840-43ab-aafc-6635a45d79f2",
+      "subKeys": [
+        "4c621f76-93aa-4db7-8905-f1e04dffddee",
+        "cc500bd4-4c93-4575-85dd-a4537f29b479"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "修改include/configs目录"
+        }
+      ]
+    },
+    {
+      "key": "36055e19-d5e1-403d-9055-b1c38b4a8485",
+      "parentKey": "ec707907-e544-4805-8aeb-d561e7196117",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": " 设置时钟频率和分频比，修改board/pxysmdk2440/pxysmdk2440.c"
+        }
+      ]
+    },
+    {
+      "key": "ae5cce7d-e943-4dd3-be13-c1875fd6bc3b",
+      "parentKey": "cc500bd4-4c93-4575-85dd-a4537f29b479",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "更改smdk2410.o为pxysmdk2440.o"
+        }
+      ]
+    },
+    {
+      "key": "ecff068e-3542-41bc-9d38-107791401a18",
+      "parentKey": "a1505bc6-3b57-4db1-bdcb-875ecde1409d",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "重新计算REFCNT寄存器的值，修改宏\"REFCNT\"的值"
+        }
+      ]
+    },
+    {
+      "key": "4c621f76-93aa-4db7-8905-f1e04dffddee",
+      "parentKey": "7d1b4ebc-cad8-4553-9614-d914b055749a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "复制smdk2410.h为pxysmdk2440.h"
+        }
+      ]
+    },
+    {
+      "key": "f4f15371-c263-46c1-8816-96cc30a942e1",
+      "parentKey": "4551887d-b221-4b56-afdc-bbd42d19d300",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "1. 复制smdk2410\n为pxysmdk2440"
+        }
+      ]
+    },
+    {
+      "key": "9fb8781b-7840-43ab-aafc-6635a45d79f2",
+      "parentKey": "c017554a-5664-45c9-9514-a775e74fcb4a",
+      "subKeys": [
+        "4551887d-b221-4b56-afdc-bbd42d19d300",
+        "7d1b4ebc-cad8-4553-9614-d914b055749a",
+        "1635fce4-eb1d-4be3-b3b9-540d5e17d68e"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "1. 新建开发板的相应目录和文件"
+        }
+      ]
+    },
+    {
+      "key": "8291cccf-00e3-4f3f-a1bb-e249bca2b0ef",
+      "parentKey": "c94297fd-4c88-44d5-8a03-394fa76a23fb",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "修改get_HCLK函数"
+        }
+      ]
+    },
+    {
+      "key": "12d0843a-8e90-49c8-afb9-a14d86c5332a",
+      "parentKey": "4551887d-b221-4b56-afdc-bbd42d19d300",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "2. 将pxysmdk2440/smdk2410.c改为pxysmdk2440.c"
+        }
+      ]
+    },
+    {
+      "key": "cc500bd4-4c93-4575-85dd-a4537f29b479",
+      "parentKey": "7d1b4ebc-cad8-4553-9614-d914b055749a",
+      "subKeys": [
+        "ae5cce7d-e943-4dd3-be13-c1875fd6bc3b"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "修改Makefile"
+        }
+      ]
+    },
+    {
+      "key": "ec707907-e544-4805-8aeb-d561e7196117",
+      "parentKey": "c017554a-5664-45c9-9514-a775e74fcb4a",
+      "subKeys": [
+        "36055e19-d5e1-403d-9055-b1c38b4a8485",
+        "c94297fd-4c88-44d5-8a03-394fa76a23fb"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "3. 增加对s3c2440的支持"
+        }
+      ]
+    },
+    {
+      "key": "c04c5bd1-0569-4c06-afa0-6b641df851ef",
+      "parentKey": "076f75da-0543-4abe-9897-f67a46efd2e8",
+      "subKeys": [
+        "4302d4db-6fcc-4518-b09a-ad2a1466c2d0",
+        "a1505bc6-3b57-4db1-bdcb-875ecde1409d"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "检查BANK6的设置，修改board/pxysmdk2440/lowlevel_init.S"
+        }
+      ]
+    },
+    {
+      "key": "a1505bc6-3b57-4db1-bdcb-875ecde1409d",
+      "parentKey": "c04c5bd1-0569-4c06-afa0-6b641df851ef",
+      "subKeys": [
+        "ecff068e-3542-41bc-9d38-107791401a18"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "根据HCLK置SDRAM的刷新参数，smdk2410的HCLK为60MHZ，s3c2440为100MHZ"
+        }
+      ]
+    },
+    {
+      "key": "c94297fd-4c88-44d5-8a03-394fa76a23fb",
+      "parentKey": "ec707907-e544-4805-8aeb-d561e7196117",
+      "subKeys": [
+        "45c1750e-5baa-4ffd-8cc4-117c11eae08b",
+        "8291cccf-00e3-4f3f-a1bb-e249bca2b0ef",
+        "f154b22c-c88e-4115-8c0a-2eecc79225d6"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "s3c2410和s3c2440计算MPLL /UPLL的方式不一样"
+        }
+      ]
+    },
+    {
+      "key": "c017554a-5664-45c9-9514-a775e74fcb4a",
+      "parentKey": null,
+      "subKeys": [
+        "9fb8781b-7840-43ab-aafc-6635a45d79f2",
+        "076f75da-0543-4abe-9897-f67a46efd2e8",
+        "ec707907-e544-4805-8aeb-d561e7196117"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "移植流程"
+        }
+      ]
+    },
+    {
+      "key": "076f75da-0543-4abe-9897-f67a46efd2e8",
+      "parentKey": "c017554a-5664-45c9-9514-a775e74fcb4a",
+      "subKeys": [
+        "c04c5bd1-0569-4c06-afa0-6b641df851ef"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "2. 修改SDRAM配置"
+        }
+      ]
+    },
+    {
+      "key": "1635fce4-eb1d-4be3-b3b9-540d5e17d68e",
+      "parentKey": "9fb8781b-7840-43ab-aafc-6635a45d79f2",
+      "subKeys": [
+        "79f18b8f-ed13-49c2-a997-f84cd8ac53d1"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "修改顶层Makefile"
+        }
+      ]
+    },
+    {
+      "key": "4551887d-b221-4b56-afdc-bbd42d19d300",
+      "parentKey": "9fb8781b-7840-43ab-aafc-6635a45d79f2",
+      "subKeys": [
+        "f4f15371-c263-46c1-8816-96cc30a942e1",
+        "12d0843a-8e90-49c8-afb9-a14d86c5332a"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "修改board目录"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 0,
+    "theme": {
+      "name": "theme2",
+      "randomColor": false,
+      "background": "#f8f8f8",
+      "highlightColor": "#50C9CE",
+      "marginH": 45,
+      "marginV": 10,
+      "contentStyle": {
+        "lineHeight": "1.5"
+      },
+      "linkStyle": {
+        "lineRadius": 5
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "background": "#50C18A",
+          "color": "#fff",
+          "fontSize": "34px",
+          "borderRadius": "5px",
+          "padding": "16px 18px 16px 18px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "2px",
+          "lineColor": "#43a9ff"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "background": "#ffffff",
+          "borderWidth": "1px",
+          "borderStyle": "solid",
+          "borderColor": "rgb(221, 170, 68)",
+          "borderRadius": "5px",
+          "color": "rgb(103,103,103)",
+          "fontSize": "14px",
+          "padding": "6px 10px 5px 10px"
+        },
+        "subLinkStyle": {
+          "lineType": "round",
+          "lineRadius": 5,
+          "lineWidth": "2px",
+          "lineColor": "#43a9ff"
+        }
+      },
+      "normalTopic": {
+        "contentStyle": {
+          "background": "#fff",
+          "borderRadius": "5px",
+          "color": "rgb(103,103,103)",
+          "fontSize": "13px",
+          "padding": "3px 9px 4px",
+          "boxShadow": "1px 1px 1px #ccc"
+        },
+        "subLinkStyle": {
+          "lineType": "round",
+          "lineRadius": 5,
+          "lineWidth": "1px",
+          "lineColor": "#43a9ff"
+        }
+      }
+    }
+  },
+  "formatVersion": "0.0"
+}

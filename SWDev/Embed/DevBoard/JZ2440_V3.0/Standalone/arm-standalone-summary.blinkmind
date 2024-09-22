@@ -1,0 +1,201 @@
+{
+  "rootTopicKey": "46a46611-a22d-463d-9e3f-94226a4912b9",
+  "editorRootTopicKey": "46a46611-a22d-463d-9e3f-94226a4912b9",
+  "focusKey": "46a46611-a22d-463d-9e3f-94226a4912b9",
+  "extData": {},
+  "topics": [
+    {
+      "key": "f0582770-2a0e-4db4-bc08-1503603411fd",
+      "parentKey": "46a46611-a22d-463d-9e3f-94226a4912b9",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "GPIO"
+        }
+      ]
+    },
+    {
+      "key": "175d72ae-bda4-4ba5-ac55-4e695d3a079c",
+      "parentKey": "46a46611-a22d-463d-9e3f-94226a4912b9",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Memory Controller"
+        }
+      ]
+    },
+    {
+      "key": "9dfa36f0-3fc2-4ed6-bf80-8eabc05f1a5f",
+      "parentKey": "46a46611-a22d-463d-9e3f-94226a4912b9",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "NAND FLASH Controller"
+        }
+      ]
+    },
+    {
+      "key": "8bcf21eb-26aa-476d-af6c-6bad6ac14b9f",
+      "parentKey": "46a46611-a22d-463d-9e3f-94226a4912b9",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "LCD Controller"
+        }
+      ]
+    },
+    {
+      "key": "46a46611-a22d-463d-9e3f-94226a4912b9",
+      "parentKey": null,
+      "subKeys": [
+        "f0582770-2a0e-4db4-bc08-1503603411fd",
+        "175d72ae-bda4-4ba5-ac55-4e695d3a079c",
+        "6703a093-dc35-420b-b728-3f444efec981",
+        "9dfa36f0-3fc2-4ed6-bf80-8eabc05f1a5f",
+        "d85a54b5-3082-404b-b2bd-b66abc4a3460",
+        "17c6b922-c3ef-4e8f-8f8e-b62cc2e51916",
+        "5fd5ea75-065b-433f-8214-e108277e5e88",
+        "8bcf21eb-26aa-476d-af6c-6bad6ac14b9f"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "s3c2440A"
+        }
+      ]
+    },
+    {
+      "key": "6703a093-dc35-420b-b728-3f444efec981",
+      "parentKey": "46a46611-a22d-463d-9e3f-94226a4912b9",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "MMU(软件)"
+        }
+      ]
+    },
+    {
+      "key": "17c6b922-c3ef-4e8f-8f8e-b62cc2e51916",
+      "parentKey": "46a46611-a22d-463d-9e3f-94226a4912b9",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "RTC"
+        }
+      ]
+    },
+    {
+      "key": "5fd5ea75-065b-433f-8214-e108277e5e88",
+      "parentKey": "46a46611-a22d-463d-9e3f-94226a4912b9",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "UART"
+        }
+      ]
+    },
+    {
+      "key": "d85a54b5-3082-404b-b2bd-b66abc4a3460",
+      "parentKey": "46a46611-a22d-463d-9e3f-94226a4912b9",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Interrupt Controller"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 0,
+    "theme": {
+      "name": "theme3",
+      "randomColor": false,
+      "background": "#A9DEF9",
+      "highlightColor": "#50C9CE",
+      "marginH": 50,
+      "marginV": 20,
+      "contentStyle": {
+        "lineHeight": "1.5"
+      },
+      "linkStyle": {
+        "lineRadius": 5
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "background": "#FF99C8",
+          "color": "#fff",
+          "fontSize": "34px",
+          "borderRadius": "5px",
+          "padding": "16px 18px 16px 18px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "2px",
+          "lineColor": "#43a9ff"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "background": "#FCF6BD",
+          "borderWidth": "1px",
+          "borderStyle": "solid",
+          "borderColor": "#E4C1F9",
+          "borderRadius": "5px",
+          "color": "rgb(103,103,103)",
+          "fontSize": "14px",
+          "padding": "6px 10px 5px 10px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "2px",
+          "lineColor": "#43a9ff"
+        }
+      },
+      "normalTopic": {
+        "contentStyle": {
+          "background": "#E4FDE1",
+          "borderRadius": "5px",
+          "color": "rgb(103,103,103)",
+          "fontSize": "13px",
+          "padding": "3px 9px 4px",
+          "boxShadow": "1px 1px 1px #ccc"
+        },
+        "subLinkStyle": {
+          "lineType": "round",
+          "lineRadius": 5,
+          "lineWidth": "1px",
+          "lineColor": "#43a9ff"
+        }
+      }
+    }
+  },
+  "formatVersion": "0.0"
+}

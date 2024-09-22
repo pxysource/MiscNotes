@@ -1,0 +1,435 @@
+{
+  "rootTopicKey": "1225c36b-7094-4977-888d-5b711dde74a7",
+  "editorRootTopicKey": "1225c36b-7094-4977-888d-5b711dde74a7",
+  "focusKey": "96bfed7a-75ad-4f94-ad9e-003193befec4",
+  "extData": {
+    "TOPIC_REFERENCE": {
+      "reference": {}
+    }
+  },
+  "topics": [
+    {
+      "key": "33a83ba2-2f65-4ae5-8963-6c0ccf104c9e",
+      "parentKey": "b12ad590-1adf-4702-8e6d-2f92eb41e134",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "基础"
+        }
+      ]
+    },
+    {
+      "key": "fce10878-4a38-42de-9d43-50eab532eead",
+      "parentKey": "e080977b-d330-46e5-8b39-a9b8ba756e11",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "定时器防抖动"
+        }
+      ]
+    },
+    {
+      "key": "d12cd441-8e2b-4080-bfc1-d4c5dc6d3eb3",
+      "parentKey": "7ba0bc7b-7108-4719-9bc4-4b8efbe4bab8",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "poll机制"
+        }
+      ]
+    },
+    {
+      "key": "def221d3-4724-469d-b033-9999728d07ba",
+      "parentKey": "e080977b-d330-46e5-8b39-a9b8ba756e11",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "查询方式获取按键值"
+        }
+      ]
+    },
+    {
+      "key": "d725071e-1d34-403c-bc96-9fbaecc5b27c",
+      "parentKey": "7ba0bc7b-7108-4719-9bc4-4b8efbe4bab8",
+      "subKeys": [
+        "96bfed7a-75ad-4f94-ad9e-003193befec4",
+        "e080977b-d330-46e5-8b39-a9b8ba756e11"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "GPIO"
+        }
+      ]
+    },
+    {
+      "key": "16411161-6e55-46a5-8a14-e84ce8940ad5",
+      "parentKey": "36d4599e-252a-450e-9f0e-cfe2e44913b1",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "分层分离驱动"
+        }
+      ]
+    },
+    {
+      "key": "7ba0bc7b-7108-4719-9bc4-4b8efbe4bab8",
+      "parentKey": "36d4599e-252a-450e-9f0e-cfe2e44913b1",
+      "subKeys": [
+        "d725071e-1d34-403c-bc96-9fbaecc5b27c",
+        "d12cd441-8e2b-4080-bfc1-d4c5dc6d3eb3",
+        "8fc516e8-0b59-42e7-bef5-c00638382672",
+        "ac583982-fb22-44f0-89fc-ab90eda37cb3",
+        "a7e27f06-5a27-4b05-b530-db6cd628e8e7"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": " 基础"
+        }
+      ]
+    },
+    {
+      "key": "31a1a859-eb19-45ad-a510-ea3a1d207326",
+      "parentKey": "e080977b-d330-46e5-8b39-a9b8ba756e11",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "中断方式获取按键值"
+        }
+      ]
+    },
+    {
+      "key": "762c2cec-bb4b-4ec9-ba3e-6293979d604d",
+      "parentKey": "e0cd93f8-9e3b-4e97-bed4-418cbb1aae56",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "LCD驱动"
+        }
+      ]
+    },
+    {
+      "key": "7b102613-6d9e-4e4c-a713-ca579e0e3f65",
+      "parentKey": "e0cd93f8-9e3b-4e97-bed4-418cbb1aae56",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "USB设备驱动"
+        }
+      ]
+    },
+    {
+      "key": "b12ad590-1adf-4702-8e6d-2f92eb41e134",
+      "parentKey": "1225c36b-7094-4977-888d-5b711dde74a7",
+      "subKeys": [
+        "33a83ba2-2f65-4ae5-8963-6c0ccf104c9e",
+        "af15ee70-665e-42c0-ad6f-263cfef451e7"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Storage driver"
+        }
+      ]
+    },
+    {
+      "key": "a7e27f06-5a27-4b05-b530-db6cd628e8e7",
+      "parentKey": "7ba0bc7b-7108-4719-9bc4-4b8efbe4bab8",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": " 定时器"
+        }
+      ]
+    },
+    {
+      "key": "96bfed7a-75ad-4f94-ad9e-003193befec4",
+      "parentKey": "d725071e-1d34-403c-bc96-9fbaecc5b27c",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "LED"
+        }
+      ]
+    },
+    {
+      "key": "1225c36b-7094-4977-888d-5b711dde74a7",
+      "parentKey": null,
+      "subKeys": [
+        "36d4599e-252a-450e-9f0e-cfe2e44913b1",
+        "b12ad590-1adf-4702-8e6d-2f92eb41e134",
+        "26ad208c-4cca-4dea-8170-849b8e1be8cc"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Driver"
+        }
+      ]
+    },
+    {
+      "key": "26ad208c-4cca-4dea-8170-849b8e1be8cc",
+      "parentKey": "1225c36b-7094-4977-888d-5b711dde74a7",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Network device driver"
+        }
+      ]
+    },
+    {
+      "key": "e0cd93f8-9e3b-4e97-bed4-418cbb1aae56",
+      "parentKey": "36d4599e-252a-450e-9f0e-cfe2e44913b1",
+      "subKeys": [
+        "762c2cec-bb4b-4ec9-ba3e-6293979d604d",
+        "7529ae0f-94e0-44ae-9a7d-dc373ee2ee5f",
+        "7b102613-6d9e-4e4c-a713-ca579e0e3f65"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "模型"
+        }
+      ]
+    },
+    {
+      "key": "67fe9de3-6d04-4fc9-b205-873ad653f2d8",
+      "parentKey": "af15ee70-665e-42c0-ad6f-263cfef451e7",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "NAND FLASH 驱动"
+        }
+      ]
+    },
+    {
+      "key": "af15ee70-665e-42c0-ad6f-263cfef451e7",
+      "parentKey": "b12ad590-1adf-4702-8e6d-2f92eb41e134",
+      "subKeys": [
+        "67fe9de3-6d04-4fc9-b205-873ad653f2d8",
+        "d7ae01ca-4362-4bb9-b4f0-ce72bce0ecf7"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "模型"
+        }
+      ]
+    },
+    {
+      "key": "36d4599e-252a-450e-9f0e-cfe2e44913b1",
+      "parentKey": "1225c36b-7094-4977-888d-5b711dde74a7",
+      "subKeys": [
+        "7ba0bc7b-7108-4719-9bc4-4b8efbe4bab8",
+        "64c98093-f40b-4b35-898b-6714d9dcf24a",
+        "16411161-6e55-46a5-8a14-e84ce8940ad5",
+        "e0cd93f8-9e3b-4e97-bed4-418cbb1aae56"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Character device driver"
+        }
+      ]
+    },
+    {
+      "key": "ac583982-fb22-44f0-89fc-ab90eda37cb3",
+      "parentKey": "7ba0bc7b-7108-4719-9bc4-4b8efbe4bab8",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "同步互斥阻塞"
+        }
+      ]
+    },
+    {
+      "key": "7529ae0f-94e0-44ae-9a7d-dc373ee2ee5f",
+      "parentKey": "e0cd93f8-9e3b-4e97-bed4-418cbb1aae56",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "触摸屏驱动"
+        }
+      ]
+    },
+    {
+      "key": "d7ae01ca-4362-4bb9-b4f0-ce72bce0ecf7",
+      "parentKey": "af15ee70-665e-42c0-ad6f-263cfef451e7",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "NOR FLASH 驱动"
+        }
+      ]
+    },
+    {
+      "key": "64c98093-f40b-4b35-898b-6714d9dcf24a",
+      "parentKey": "36d4599e-252a-450e-9f0e-cfe2e44913b1",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "输入子系统"
+        }
+      ]
+    },
+    {
+      "key": "e080977b-d330-46e5-8b39-a9b8ba756e11",
+      "parentKey": "d725071e-1d34-403c-bc96-9fbaecc5b27c",
+      "subKeys": [
+        "def221d3-4724-469d-b033-9999728d07ba",
+        "31a1a859-eb19-45ad-a510-ea3a1d207326",
+        "fce10878-4a38-42de-9d43-50eab532eead"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "KEY"
+        }
+      ]
+    },
+    {
+      "key": "8fc516e8-0b59-42e7-bef5-c00638382672",
+      "parentKey": "7ba0bc7b-7108-4719-9bc4-4b8efbe4bab8",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "异步通知"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 0,
+    "theme": {
+      "name": "theme1",
+      "randomColor": false,
+      "background": "rgb(250,245,205)",
+      "highlightColor": "#50C9CE",
+      "marginH": 50,
+      "marginV": 30,
+      "contentStyle": {
+        "lineHeight": "1.5"
+      },
+      "linkStyle": {
+        "lineRadius": 5
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "background": "rgb(221, 170, 68)",
+          "color": "#fff",
+          "fontSize": "34px",
+          "borderRadius": "5px",
+          "padding": "16px 18px 16px 18px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "2px",
+          "lineColor": "rgb(221, 170, 68)"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "background": "#e8eaec",
+          "borderWidth": "2px",
+          "borderStyle": "solid",
+          "borderColor": "rgb(221, 170, 68)",
+          "borderRadius": "5px",
+          "fontSize": "17px",
+          "padding": "10px 15px 10px 15px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "2px",
+          "lineColor": "rgb(221, 170, 68)"
+        }
+      },
+      "normalTopic": {
+        "contentStyle": {
+          "background": "#fff",
+          "border": "1px solid #e8eaec",
+          "borderRadius": "20px",
+          "color": "rgb(187, 136, 34)",
+          "fontSize": "13px",
+          "padding": "4px 10px"
+        },
+        "subLinkStyle": {
+          "lineType": "round",
+          "lineRadius": 5,
+          "lineWidth": "1px",
+          "lineColor": "rgb(187, 136, 34)"
+        }
+      }
+    }
+  },
+  "formatVersion": "0.0"
+}

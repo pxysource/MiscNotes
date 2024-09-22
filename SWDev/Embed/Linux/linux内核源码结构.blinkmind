@@ -1,0 +1,332 @@
+{
+  "rootTopicKey": "d3ddd4b3-67d7-4700-851c-ca3db2329847",
+  "editorRootTopicKey": "d3ddd4b3-67d7-4700-851c-ca3db2329847",
+  "focusKey": "d1d9635d-e0d5-4c35-bb54-d924f921e580",
+  "extData": {
+    "TOPIC_REFERENCE": {
+      "reference": {}
+    }
+  },
+  "topics": [
+    {
+      "key": "02d0fe9a-e1a2-4974-b6fd-fa9d228db3a8",
+      "parentKey": "d3ddd4b3-67d7-4700-851c-ca3db2329847",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "net，网络支持代码"
+        }
+      ]
+    },
+    {
+      "key": "c064a108-1da9-4619-b382-70eb972bcfc2",
+      "parentKey": "d3ddd4b3-67d7-4700-851c-ca3db2329847",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "mm，内存管理代码"
+        }
+      ]
+    },
+    {
+      "key": "eaae7f15-89f6-4a86-890c-29e0a49d39fe",
+      "parentKey": "d3ddd4b3-67d7-4700-851c-ca3db2329847",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "usr，？？？"
+        }
+      ]
+    },
+    {
+      "key": "8b3e8842-668e-4d6b-bfce-dacb7d0afcb7",
+      "parentKey": "d3ddd4b3-67d7-4700-851c-ca3db2329847",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "lib，内核用到的一些库函数代码"
+        }
+      ]
+    },
+    {
+      "key": "d3ddd4b3-67d7-4700-851c-ca3db2329847",
+      "parentKey": null,
+      "subKeys": [
+        "f289d846-53e4-4660-b2ca-a81d532b1e4c",
+        "999a1f11-ce1b-4bf3-949b-d34cf975bb89",
+        "b39a60bb-3f5d-4e3a-a01d-abb65a631a35",
+        "5a5b3069-d9af-42ef-8e08-d11e3f58b029",
+        "15eba50b-17a4-4f12-b167-46b77c18b779",
+        "3c183b5e-a240-4960-9b3d-1019c013d989",
+        "22f7eafd-18f4-4c20-9b5d-bd6b05ea07b3",
+        "f4a83b0a-5558-4f5d-a6c4-53ee47e018cd",
+        "cc7d649a-de82-4263-a725-021e4337be19",
+        "8b3e8842-668e-4d6b-bfce-dacb7d0afcb7",
+        "c064a108-1da9-4619-b382-70eb972bcfc2",
+        "02d0fe9a-e1a2-4974-b6fd-fa9d228db3a8",
+        "131b22c5-2f0a-46b2-98ef-1e4a485994db",
+        "a8f89307-1114-443c-b7d5-8043be7e9a1a",
+        "eaae7f15-89f6-4a86-890c-29e0a49d39fe",
+        "9fc56b9e-9ee0-4b9e-b9e2-ec1c6299d018",
+        "d1d9635d-e0d5-4c35-bb54-d924f921e580"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "linux kernel"
+        }
+      ]
+    },
+    {
+      "key": "a8f89307-1114-443c-b7d5-8043be7e9a1a",
+      "parentKey": "d3ddd4b3-67d7-4700-851c-ca3db2329847",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "sound，音频设备的驱动程序"
+        }
+      ]
+    },
+    {
+      "key": "f4a83b0a-5558-4f5d-a6c4-53ee47e018cd",
+      "parentKey": "d3ddd4b3-67d7-4700-851c-ca3db2329847",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "ipc，进程间通信代码"
+        }
+      ]
+    },
+    {
+      "key": "999a1f11-ce1b-4bf3-949b-d34cf975bb89",
+      "parentKey": "d3ddd4b3-67d7-4700-851c-ca3db2329847",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "block，块设备的通用函数"
+        }
+      ]
+    },
+    {
+      "key": "22f7eafd-18f4-4c20-9b5d-bd6b05ea07b3",
+      "parentKey": "d3ddd4b3-67d7-4700-851c-ca3db2329847",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "init，内核的初始化代码"
+        }
+      ]
+    },
+    {
+      "key": "15eba50b-17a4-4f12-b167-46b77c18b779",
+      "parentKey": "d3ddd4b3-67d7-4700-851c-ca3db2329847",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "fs，linux支持的文件系统的代码"
+        }
+      ]
+    },
+    {
+      "key": "131b22c5-2f0a-46b2-98ef-1e4a485994db",
+      "parentKey": "d3ddd4b3-67d7-4700-851c-ca3db2329847",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "security，安全、密钥相关代码"
+        }
+      ]
+    },
+    {
+      "key": "9fc56b9e-9ee0-4b9e-b9e2-ec1c6299d018",
+      "parentKey": "d3ddd4b3-67d7-4700-851c-ca3db2329847",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Documentation，内核文档"
+        }
+      ]
+    },
+    {
+      "key": "5a5b3069-d9af-42ef-8e08-d11e3f58b029",
+      "parentKey": "d3ddd4b3-67d7-4700-851c-ca3db2329847",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "drivers，所有的设备驱动程序"
+        }
+      ]
+    },
+    {
+      "key": "d1d9635d-e0d5-4c35-bb54-d924f921e580",
+      "parentKey": "d3ddd4b3-67d7-4700-851c-ca3db2329847",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "scripts"
+        }
+      ]
+    },
+    {
+      "key": "3c183b5e-a240-4960-9b3d-1019c013d989",
+      "parentKey": "d3ddd4b3-67d7-4700-851c-ca3db2329847",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "include，内核头文件"
+        }
+      ]
+    },
+    {
+      "key": "cc7d649a-de82-4263-a725-021e4337be19",
+      "parentKey": "d3ddd4b3-67d7-4700-851c-ca3db2329847",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "kernel，内核管理的核心代码"
+        }
+      ]
+    },
+    {
+      "key": "b39a60bb-3f5d-4e3a-a01d-abb65a631a35",
+      "parentKey": "d3ddd4b3-67d7-4700-851c-ca3db2329847",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "crypto，加密算法等"
+        }
+      ]
+    },
+    {
+      "key": "f289d846-53e4-4660-b2ca-a81d532b1e4c",
+      "parentKey": "d3ddd4b3-67d7-4700-851c-ca3db2329847",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "arch，体系结构相关的代码"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 0,
+    "theme": {
+      "name": "theme2",
+      "randomColor": false,
+      "background": "#f8f8f8",
+      "highlightColor": "#50C9CE",
+      "marginH": 45,
+      "marginV": 10,
+      "contentStyle": {
+        "lineHeight": "1.5"
+      },
+      "linkStyle": {
+        "lineRadius": 5
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "background": "#50C18A",
+          "color": "#fff",
+          "fontSize": "34px",
+          "borderRadius": "5px",
+          "padding": "16px 18px 16px 18px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "2px",
+          "lineColor": "#43a9ff"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "background": "#ffffff",
+          "borderWidth": "1px",
+          "borderStyle": "solid",
+          "borderColor": "rgb(221, 170, 68)",
+          "borderRadius": "5px",
+          "color": "rgb(103,103,103)",
+          "fontSize": "14px",
+          "padding": "6px 10px 5px 10px"
+        },
+        "subLinkStyle": {
+          "lineType": "round",
+          "lineRadius": 5,
+          "lineWidth": "2px",
+          "lineColor": "#43a9ff"
+        }
+      },
+      "normalTopic": {
+        "contentStyle": {
+          "background": "#fff",
+          "borderRadius": "5px",
+          "color": "rgb(103,103,103)",
+          "fontSize": "13px",
+          "padding": "3px 9px 4px",
+          "boxShadow": "1px 1px 1px #ccc"
+        },
+        "subLinkStyle": {
+          "lineType": "round",
+          "lineRadius": 5,
+          "lineWidth": "1px",
+          "lineColor": "#43a9ff"
+        }
+      }
+    }
+  },
+  "formatVersion": "0.0"
+}

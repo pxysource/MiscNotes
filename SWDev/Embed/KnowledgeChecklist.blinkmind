@@ -1,0 +1,2082 @@
+{
+  "rootTopicKey": "1ff57107-cdef-4020-8144-9b8c0d197521",
+  "editorRootTopicKey": "1ff57107-cdef-4020-8144-9b8c0d197521",
+  "focusKey": "fbe3a55f-20e3-424d-8a62-3ce28d0f3075",
+  "extData": {
+    "TOPIC_REFERENCE": {
+      "reference": {}
+    },
+    "TAGS": {
+      "tags": {
+        "✔": {
+          "name": "✔",
+          "style": "{\"backgroundColor\":\"#7ed321\",\"color\":\"#f11008\"}",
+          "topicKeys": [
+            "3f3efb77-c8c4-43d1-80cd-1b8fea613bb7",
+            "b7233adf-1e53-4494-9d41-ec96721b38f0",
+            "db5c870c-aee4-4dc9-8067-ef3a5d67d8de",
+            "bbe09d3e-fff4-419f-a741-687b58447485",
+            "2207d331-349a-4383-8d14-08b1ea501ac2",
+            "bd06be8c-7fe8-4a4e-8856-656e88e235a9",
+            "703ba177-51df-48b9-b352-7176eb6eb2d6",
+            "28ca4cc0-8279-4530-a68b-2df0eb982275",
+            "7e491191-b369-418a-86b8-c3bff7ca8810",
+            "ee3661ef-0277-4230-bdf5-1576ed29e70b"
+          ]
+        }
+      }
+    }
+  },
+  "topics": [
+    {
+      "key": "6741e4ad-e6c0-4d42-a882-b878ba9e5a47",
+      "parentKey": "c5d3bdc8-c625-4be4-8bef-5fea4242989a",
+      "subKeys": [
+        "4ad60757-6aeb-44f0-936d-080c4ad2ca08",
+        "d60fd1e0-49bc-424e-92b5-bc014550a60b",
+        "3f3efb77-c8c4-43d1-80cd-1b8fea613bb7"
+      ],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "获取方式"
+        }
+      ]
+    },
+    {
+      "key": "6b5e8b14-77c5-4868-878a-a1e37cc3520d",
+      "parentKey": "a14744b6-1e13-4fb7-935e-d3761b0b2bf9",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "vi编辑器"
+        }
+      ]
+    },
+    {
+      "key": "1f3e613b-3ad7-4b6b-84ce-bfb8ae282f73",
+      "parentKey": "a14744b6-1e13-4fb7-935e-d3761b0b2bf9",
+      "subKeys": [
+        "0ee31d6b-14f8-4735-9e60-01e6478e9789"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "gnu autotools"
+        }
+      ]
+    },
+    {
+      "key": "b0f11d99-6f74-47ee-bb74-47ed1dde4a80",
+      "parentKey": "fbe3a55f-20e3-424d-8a62-3ce28d0f3075",
+      "subKeys": [
+        "c5a10adc-d409-40a2-a473-56997599a7fc",
+        "110af5bf-c02e-449c-8ae2-db2ba6df04a1"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "驱动模型"
+        }
+      ]
+    },
+    {
+      "key": "c5f3af0e-7ef2-4b0f-b950-b29490cc74f7",
+      "parentKey": "fccb10c0-e975-4e7d-8789-442aa7913f2f",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "3. Makefile"
+        }
+      ]
+    },
+    {
+      "key": "2831c08c-4ef8-4217-bc74-22c183e077f4",
+      "parentKey": "c3a083e8-3ad0-426e-89a1-66990376246a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "gdb"
+        }
+      ]
+    },
+    {
+      "key": "f12b9f33-0d1d-4d2f-902b-f6c95a3aa2b4",
+      "parentKey": "a70d2cce-1384-4a55-a8a0-52b32df0ef54",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "a. defconfig"
+        }
+      ]
+    },
+    {
+      "key": "41b965be-0ff7-4ac8-8463-3f8b0c46163f",
+      "parentKey": "3bb8726a-c8c2-492c-938e-5393c5345954",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "libc"
+        }
+      ]
+    },
+    {
+      "key": "8059c980-27ee-4e37-ad75-dcb7d9a66dfc",
+      "parentKey": "e8a7efee-1ad4-48f1-99b9-21ac19cfdefc",
+      "subKeys": [
+        "839be763-c821-4f3e-8d70-b90e6613e9f2"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Math Library (Newlib)"
+        }
+      ]
+    },
+    {
+      "key": "a14744b6-1e13-4fb7-935e-d3761b0b2bf9",
+      "parentKey": "1ff57107-cdef-4020-8144-9b8c0d197521",
+      "subKeys": [
+        "2c156402-e131-4b85-badd-45721f814b06",
+        "6b5e8b14-77c5-4868-878a-a1e37cc3520d",
+        "81420494-bc8e-43dc-825e-87bed0847d7a",
+        "1f3e613b-3ad7-4b6b-84ce-bfb8ae282f73",
+        "36cec842-0585-4512-aae0-23619173d0d8",
+        "0f38b375-9548-43f5-8660-f4bf2641ff19",
+        "ef9f90f7-103e-4bc2-876a-f7ef0c5dcc68"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "linux基础"
+        }
+      ]
+    },
+    {
+      "key": "d60fd1e0-49bc-424e-92b5-bc014550a60b",
+      "parentKey": "6741e4ad-e6c0-4d42-a882-b878ba9e5a47",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "2 Codesourcery"
+        },
+        {
+          "type": "DESC",
+          "data": "它的ARM GCC在目前在市场上非常优秀，但是下载不方便。并且开源版本停更了。"
+        }
+      ]
+    },
+    {
+      "key": "4e1add41-c8ca-4127-a62b-f53ab098344c",
+      "parentKey": "a02748eb-5525-4a76-b85c-24c59104ad11",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "gprof"
+        }
+      ]
+    },
+    {
+      "key": "9e9cb872-d11b-4ddf-8ebf-2e29d491ba90",
+      "parentKey": "90de2bcc-a550-4760-966e-5fa8ce4db9c6",
+      "subKeys": [
+        "ee3661ef-0277-4230-bdf5-1576ed29e70b"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "linux"
+        }
+      ]
+    },
+    {
+      "key": "06bcadce-0d89-4921-acd3-91220cfae9cb",
+      "parentKey": "cb308601-7f38-40bb-a646-449eb88f5019",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "nfs"
+        }
+      ]
+    },
+    {
+      "key": "2207d331-349a-4383-8d14-08b1ea501ac2",
+      "parentKey": "84632f1e-13f2-44da-b3a7-80d7533dfca7",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "objdump"
+        }
+      ]
+    },
+    {
+      "key": "16a53903-a896-4f94-b0e9-a76b5fb9e45f",
+      "parentKey": "84632f1e-13f2-44da-b3a7-80d7533dfca7",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "size"
+        }
+      ]
+    },
+    {
+      "key": "10f7090e-a263-46e9-a6a7-775f1a277eae",
+      "parentKey": "84632f1e-13f2-44da-b3a7-80d7533dfca7",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "ranlib"
+        }
+      ]
+    },
+    {
+      "key": "84f0a72b-77bb-43fe-afc4-44064cf19d04",
+      "parentKey": "52eb460b-cb44-4c6e-8792-d840fb8310f1",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "2. Makefile"
+        }
+      ]
+    },
+    {
+      "key": "cadefcb5-2208-4847-ab2b-03bcadbe73dd",
+      "parentKey": "8047d670-e9c5-42ad-b634-fe919d462691",
+      "subKeys": [
+        "c8a0686f-1ae8-4400-87b4-ab8d8078a473",
+        "2d429248-91a2-428e-8f45-9e7b2211d3a6"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "安装系统"
+        }
+      ]
+    },
+    {
+      "key": "4c9b3bfe-fde8-48c1-92c4-6c7c40847a5a",
+      "parentKey": "52eb460b-cb44-4c6e-8792-d840fb8310f1",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "1. 芯片手册"
+        }
+      ]
+    },
+    {
+      "key": "c5d3bdc8-c625-4be4-8bef-5fea4242989a",
+      "parentKey": "eb715261-4b07-4dce-b642-84a826543c52",
+      "subKeys": [
+        "6741e4ad-e6c0-4d42-a882-b878ba9e5a47",
+        "e8a7efee-1ad4-48f1-99b9-21ac19cfdefc"
+      ],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "交叉编译工具链"
+        }
+      ]
+    },
+    {
+      "key": "8e1ae33d-9098-426f-9cb5-f3ca2cdedc5f",
+      "parentKey": "99d94362-4743-4143-954a-8df75f57a519",
+      "subKeys": [
+        "e48dd622-0ea8-4ddf-86df-843cb88b1a69"
+      ],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "linux移植"
+        }
+      ]
+    },
+    {
+      "key": "3bb8726a-c8c2-492c-938e-5393c5345954",
+      "parentKey": "e8a7efee-1ad4-48f1-99b9-21ac19cfdefc",
+      "subKeys": [
+        "41b965be-0ff7-4ac8-8463-3f8b0c46163f"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "C Library (Newlib)"
+        }
+      ]
+    },
+    {
+      "key": "8c41e798-52f4-4b2e-a749-eabdbf30511f",
+      "parentKey": "632afddc-d38a-44b4-a7a4-471c7e6162ee",
+      "subKeys": [
+        "a6ad8298-2712-482e-8b30-a560504a4840",
+        "590c2e3e-1362-42c7-97ea-1c485b81cd7a"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "链表"
+        }
+      ]
+    },
+    {
+      "key": "eed6b66a-411d-48e5-a911-b6b181f4d15f",
+      "parentKey": "8047d670-e9c5-42ad-b634-fe919d462691",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "ubuntu常用配置"
+        }
+      ]
+    },
+    {
+      "key": "862b785c-bf71-4db6-ad7f-ac2b2c4bbdde",
+      "parentKey": "d55f83d3-ce96-4473-8b9c-fb40cf9e0406",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "a. 进程/线程"
+        }
+      ]
+    },
+    {
+      "key": "9173be21-b85c-49d6-8b6d-f2a79a66139a",
+      "parentKey": "bb7ae665-7e42-4779-8daa-6a9a727feeb6",
+      "subKeys": [
+        "cd9c9d98-f225-4086-b0c7-11d4014189f2"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "2. ARM汇编"
+        }
+      ]
+    },
+    {
+      "key": "d55f83d3-ce96-4473-8b9c-fb40cf9e0406",
+      "parentKey": "fccb10c0-e975-4e7d-8789-442aa7913f2f",
+      "subKeys": [
+        "862b785c-bf71-4db6-ad7f-ac2b2c4bbdde",
+        "093da8bb-283b-43fe-af0d-a758ada411ad"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "4. 系统编程"
+        }
+      ]
+    },
+    {
+      "key": "44f175c9-9019-41d4-964d-b2301865c4bd",
+      "parentKey": "1ff57107-cdef-4020-8144-9b8c0d197521",
+      "subKeys": [
+        "db62470f-c476-4ab9-8f30-d3c36cdeaf12",
+        "99d94362-4743-4143-954a-8df75f57a519",
+        "eb715261-4b07-4dce-b642-84a826543c52"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "linux开发"
+        }
+      ]
+    },
+    {
+      "key": "52eb460b-cb44-4c6e-8792-d840fb8310f1",
+      "parentKey": "fbe3a55f-20e3-424d-8a62-3ce28d0f3075",
+      "subKeys": [
+        "4c9b3bfe-fde8-48c1-92c4-6c7c40847a5a",
+        "84f0a72b-77bb-43fe-afc4-44064cf19d04"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "技术点"
+        }
+      ]
+    },
+    {
+      "key": "fbe3a55f-20e3-424d-8a62-3ce28d0f3075",
+      "parentKey": "99d94362-4743-4143-954a-8df75f57a519",
+      "subKeys": [
+        "a7b654bd-e1fd-47c2-a76e-b6c97d40255c",
+        "5d0236c6-612a-4d14-a858-64a5821fa79f",
+        "018f46c1-fad6-47e0-a392-1fa493597a06",
+        "b0f11d99-6f74-47ee-bb74-47ed1dde4a80",
+        "52eb460b-cb44-4c6e-8792-d840fb8310f1"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "驱动开发"
+        }
+      ]
+    },
+    {
+      "key": "d63aa745-dcb0-4482-8741-7dbe6cc8489a",
+      "parentKey": "fccb10c0-e975-4e7d-8789-442aa7913f2f",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "2. 编译依赖库"
+        }
+      ]
+    },
+    {
+      "key": "7850c363-1e3d-4385-93bc-7352756b6972",
+      "parentKey": "a7b654bd-e1fd-47c2-a76e-b6c97d40255c",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "设备"
+        }
+      ]
+    },
+    {
+      "key": "bd06be8c-7fe8-4a4e-8856-656e88e235a9",
+      "parentKey": "84632f1e-13f2-44da-b3a7-80d7533dfca7",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "strings"
+        }
+      ]
+    },
+    {
+      "key": "0344b60f-6383-4515-a268-334905049d06",
+      "parentKey": "bb0ac24d-3b57-44af-9367-ffa3eddbe0a8",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "emmc"
+        }
+      ]
+    },
+    {
+      "key": "15dd77bd-d261-48a0-a146-0ea30094e050",
+      "parentKey": "bb7ae665-7e42-4779-8daa-6a9a727feeb6",
+      "subKeys": [
+        "fc8f2b39-3404-4f7a-8fe3-d6d78c1d9b35",
+        "7bb3b3b7-5bf4-43f5-9c80-6343a8ecf3fc",
+        "41420e13-0b67-46d6-a5f7-d97590854d17"
+      ],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "1. 裸机开发"
+        }
+      ]
+    },
+    {
+      "key": "3af5c4ab-8e30-4d58-a06f-f94e331c6cf0",
+      "parentKey": "fccb10c0-e975-4e7d-8789-442aa7913f2f",
+      "subKeys": [
+        "58234ecd-e0f5-4b03-821b-9ce508ffb71f"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "5. IO编程"
+        }
+      ]
+    },
+    {
+      "key": "5342f6a9-9016-4343-8c7b-9cbec3820a5d",
+      "parentKey": "8047d670-e9c5-42ad-b634-fe919d462691",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "ubuntu安装常用软件"
+        }
+      ]
+    },
+    {
+      "key": "1520a949-76f3-4e6a-bc95-6c5f1c6aa407",
+      "parentKey": "db62470f-c476-4ab9-8f30-d3c36cdeaf12",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "运行环境"
+        }
+      ]
+    },
+    {
+      "key": "1bd253f1-0168-4fff-b849-3046e1133695",
+      "parentKey": "018f46c1-fad6-47e0-a392-1fa493597a06",
+      "subKeys": [
+        "7630fcc9-c22a-447e-bce8-d768dcb12298"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "设备"
+        }
+      ]
+    },
+    {
+      "key": "7d71384d-edff-401f-b8fe-5a2eb9fb0184",
+      "parentKey": "cb308601-7f38-40bb-a646-449eb88f5019",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "tftp"
+        }
+      ]
+    },
+    {
+      "key": "c5d7f117-b811-430f-8288-53e7702380e0",
+      "parentKey": "e8a7efee-1ad4-48f1-99b9-21ac19cfdefc",
+      "subKeys": [
+        "eb3edd65-4ee5-4b06-9cfb-7dafbf5e9bc7",
+        "facb4f55-98ee-49d9-892d-9a0756eb2418",
+        "62b6a609-2f3b-481e-9430-06d7e3f00d7a"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Compiler "
+        }
+      ]
+    },
+    {
+      "key": "3f3efb77-c8c4-43d1-80cd-1b8fea613bb7",
+      "parentKey": "6741e4ad-e6c0-4d42-a882-b878ba9e5a47",
+      "subKeys": [],
+      "collapse": false,
+      "style": "{\"contentStyle\":{\"background\":\"#ffffff\"}}",
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "3 Linaro"
+        },
+        {
+          "type": "DESC",
+          "data": "ARM等大厂开源支持，推荐"
+        }
+      ]
+    },
+    {
+      "key": "6ac00333-a81a-4b5a-9181-c8c9b122389f",
+      "parentKey": "99d94362-4743-4143-954a-8df75f57a519",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "根文件系统制作"
+        }
+      ]
+    },
+    {
+      "key": "e6799c76-0d04-4031-936a-21cf9bbe2433",
+      "parentKey": "fccb10c0-e975-4e7d-8789-442aa7913f2f",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "1. c库使用"
+        }
+      ]
+    },
+    {
+      "key": "e75121fe-917c-4356-8444-43696a9d4fd7",
+      "parentKey": "e48dd622-0ea8-4ddf-86df-843cb88b1a69",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "3. Makefile"
+        }
+      ]
+    },
+    {
+      "key": "c5a10adc-d409-40a2-a473-56997599a7fc",
+      "parentKey": "b0f11d99-6f74-47ee-bb74-47ed1dde4a80",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "平台设备(总线)模型"
+        }
+      ]
+    },
+    {
+      "key": "e9e7986d-4bd5-4b9b-bf6e-04ca6cec3998",
+      "parentKey": "e48dd622-0ea8-4ddf-86df-843cb88b1a69",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "4. shell脚本"
+        }
+      ]
+    },
+    {
+      "key": "fc8f2b39-3404-4f7a-8fe3-d6d78c1d9b35",
+      "parentKey": "15dd77bd-d261-48a0-a146-0ea30094e050",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "a. 看懂电路图"
+        }
+      ]
+    },
+    {
+      "key": "facb4f55-98ee-49d9-892d-9a0756eb2418",
+      "parentKey": "c5d7f117-b811-430f-8288-53e7702380e0",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "g++"
+        }
+      ]
+    },
+    {
+      "key": "0fceaf29-fe12-4d43-af12-d8fc0e9e878d",
+      "parentKey": "e8a7efee-1ad4-48f1-99b9-21ac19cfdefc",
+      "subKeys": [
+        "7ebd50ab-5d7c-400a-98cd-cb32986d4018"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Preprocessor"
+        }
+      ]
+    },
+    {
+      "key": "ac0552cd-4274-42c6-8b63-c01b20caf03f",
+      "parentKey": "99d94362-4743-4143-954a-8df75f57a519",
+      "subKeys": [
+        "bb7ae665-7e42-4779-8daa-6a9a727feeb6"
+      ],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "u-boot移植"
+        }
+      ]
+    },
+    {
+      "key": "018f46c1-fad6-47e0-a392-1fa493597a06",
+      "parentKey": "fbe3a55f-20e3-424d-8a62-3ce28d0f3075",
+      "subKeys": [
+        "1bd253f1-0168-4fff-b849-3046e1133695"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "网络设备驱动开发"
+        }
+      ]
+    },
+    {
+      "key": "e25c0a9a-e1c7-4d07-9764-fa925538ae21",
+      "parentKey": "1ff57107-cdef-4020-8144-9b8c0d197521",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "单片机"
+        }
+      ]
+    },
+    {
+      "key": "41420e13-0b67-46d6-a5f7-d97590854d17",
+      "parentKey": "15dd77bd-d261-48a0-a146-0ea30094e050",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "c. 操作寄存器"
+        }
+      ]
+    },
+    {
+      "key": "7e491191-b369-418a-86b8-c3bff7ca8810",
+      "parentKey": "178b640a-b2ac-47eb-a47f-e6d448cfd50c",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "SecureCRT"
+        }
+      ]
+    },
+    {
+      "key": "7ebd50ab-5d7c-400a-98cd-cb32986d4018",
+      "parentKey": "0fceaf29-fe12-4d43-af12-d8fc0e9e878d",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "cpp"
+        }
+      ]
+    },
+    {
+      "key": "0ddec2c6-3236-42d3-a0f0-82c8b866ba21",
+      "parentKey": "ef9f90f7-103e-4bc2-876a-f7ef0c5dcc68",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "make install"
+        }
+      ]
+    },
+    {
+      "key": "8047d670-e9c5-42ad-b634-fe919d462691",
+      "parentKey": "1ff57107-cdef-4020-8144-9b8c0d197521",
+      "subKeys": [
+        "cadefcb5-2208-4847-ab2b-03bcadbe73dd",
+        "eed6b66a-411d-48e5-a911-b6b181f4d15f",
+        "5342f6a9-9016-4343-8c7b-9cbec3820a5d"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "搭建linux开发环境"
+        }
+      ]
+    },
+    {
+      "key": "db5c870c-aee4-4dc9-8067-ef3a5d67d8de",
+      "parentKey": "84632f1e-13f2-44da-b3a7-80d7533dfca7",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "nm"
+        }
+      ]
+    },
+    {
+      "key": "e8a7efee-1ad4-48f1-99b9-21ac19cfdefc",
+      "parentKey": "c5d3bdc8-c625-4be4-8bef-5fea4242989a",
+      "subKeys": [
+        "82bc8b9f-2e2b-4d53-9c4d-2794f5e0c28e",
+        "84632f1e-13f2-44da-b3a7-80d7533dfca7",
+        "3bb8726a-c8c2-492c-938e-5393c5345954",
+        "c5d7f117-b811-430f-8288-53e7702380e0",
+        "c3a083e8-3ad0-426e-89a1-66990376246a",
+        "412542f2-5115-4dac-8509-3990199552aa",
+        "8059c980-27ee-4e37-ad75-dcb7d9a66dfc",
+        "0fceaf29-fe12-4d43-af12-d8fc0e9e878d",
+        "a02748eb-5525-4a76-b85c-24c59104ad11"
+      ],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "组件"
+        }
+      ]
+    },
+    {
+      "key": "839be763-c821-4f3e-8d70-b90e6613e9f2",
+      "parentKey": "8059c980-27ee-4e37-ad75-dcb7d9a66dfc",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "libm"
+        }
+      ]
+    },
+    {
+      "key": "2517792e-1827-4340-9de2-2662b7280371",
+      "parentKey": "bb7ae665-7e42-4779-8daa-6a9a727feeb6",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "4. shell脚本"
+        }
+      ]
+    },
+    {
+      "key": "a02748eb-5525-4a76-b85c-24c59104ad11",
+      "parentKey": "e8a7efee-1ad4-48f1-99b9-21ac19cfdefc",
+      "subKeys": [
+        "4e1add41-c8ca-4127-a62b-f53ab098344c"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Profiler"
+        }
+      ]
+    },
+    {
+      "key": "7630fcc9-c22a-447e-bce8-d768dcb12298",
+      "parentKey": "1bd253f1-0168-4fff-b849-3046e1133695",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "网卡"
+        }
+      ]
+    },
+    {
+      "key": "99d94362-4743-4143-954a-8df75f57a519",
+      "parentKey": "44f175c9-9019-41d4-964d-b2301865c4bd",
+      "subKeys": [
+        "ac0552cd-4274-42c6-8b63-c01b20caf03f",
+        "8e1ae33d-9098-426f-9cb5-f3ca2cdedc5f",
+        "fbe3a55f-20e3-424d-8a62-3ce28d0f3075",
+        "6ac00333-a81a-4b5a-9181-c8c9b122389f"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "linux内核"
+        }
+      ]
+    },
+    {
+      "key": "0ee31d6b-14f8-4735-9e60-01e6478e9789",
+      "parentKey": "1f3e613b-3ad7-4b6b-84ce-bfb8ae282f73",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "configure"
+        }
+      ]
+    },
+    {
+      "key": "4bb5d214-bcb2-419c-96c9-e1b6ba4ce098",
+      "parentKey": "e48dd622-0ea8-4ddf-86df-843cb88b1a69",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "2. 芯片手册"
+        }
+      ]
+    },
+    {
+      "key": "8a93c765-3f87-4f46-84b7-f00c480124cf",
+      "parentKey": "1ff57107-cdef-4020-8144-9b8c0d197521",
+      "subKeys": [
+        "2ca9849d-be29-4161-a326-f112f1627318",
+        "632afddc-d38a-44b4-a7a4-471c7e6162ee"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "C语言"
+        }
+      ]
+    },
+    {
+      "key": "7bb3b3b7-5bf4-43f5-9c80-6343a8ecf3fc",
+      "parentKey": "15dd77bd-d261-48a0-a146-0ea30094e050",
+      "subKeys": [
+        "3fd1bdc9-5f83-498f-b7cc-bbdc4a5d6bed",
+        "9cd7a635-e708-4457-8763-5374847f423e",
+        "ce4aa9f5-b7cd-4a21-b922-da52f5608869"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "b. 芯片手册"
+        }
+      ]
+    },
+    {
+      "key": "90de2bcc-a550-4760-966e-5fa8ce4db9c6",
+      "parentKey": "cb308601-7f38-40bb-a646-449eb88f5019",
+      "subKeys": [
+        "178b640a-b2ac-47eb-a47f-e6d448cfd50c",
+        "9e9cb872-d11b-4ddf-8ebf-2e29d491ba90"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "串口工具"
+        }
+      ]
+    },
+    {
+      "key": "703ba177-51df-48b9-b352-7176eb6eb2d6",
+      "parentKey": "84632f1e-13f2-44da-b3a7-80d7533dfca7",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "addr2line"
+        }
+      ]
+    },
+    {
+      "key": "3438be65-16e1-4d00-b583-cf8f2793fe39",
+      "parentKey": "db62470f-c476-4ab9-8f30-d3c36cdeaf12",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "开发环境"
+        }
+      ]
+    },
+    {
+      "key": "ef9f90f7-103e-4bc2-876a-f7ef0c5dcc68",
+      "parentKey": "a14744b6-1e13-4fb7-935e-d3761b0b2bf9",
+      "subKeys": [
+        "0c63400c-a5ec-4c3e-a6b0-12fa888b4c76",
+        "5e399c73-2481-4585-bead-f62979bf75bd",
+        "0ddec2c6-3236-42d3-a0f0-82c8b866ba21"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "编译开源软件"
+        }
+      ]
+    },
+    {
+      "key": "58234ecd-e0f5-4b03-821b-9ce508ffb71f",
+      "parentKey": "3af5c4ab-8e30-4d58-a06f-f94e331c6cf0",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "a. 文件操作"
+        }
+      ]
+    },
+    {
+      "key": "db62470f-c476-4ab9-8f30-d3c36cdeaf12",
+      "parentKey": "44f175c9-9019-41d4-964d-b2301865c4bd",
+      "subKeys": [
+        "fccb10c0-e975-4e7d-8789-442aa7913f2f",
+        "3438be65-16e1-4d00-b583-cf8f2793fe39",
+        "1520a949-76f3-4e6a-bc95-6c5f1c6aa407"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "linux应用开发"
+        }
+      ]
+    },
+    {
+      "key": "d00c66cf-22cf-4464-9bbb-226fb0f2b521",
+      "parentKey": "f3807bae-8772-48ba-a532-673d49890370",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "二叉搜索树"
+        }
+      ]
+    },
+    {
+      "key": "69cfb23d-49a1-4412-8f8f-c4f2a9202f0b",
+      "parentKey": "f3807bae-8772-48ba-a532-673d49890370",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "红黑树"
+        }
+      ]
+    },
+    {
+      "key": "3fd1bdc9-5f83-498f-b7cc-bbdc4a5d6bed",
+      "parentKey": "7bb3b3b7-5bf4-43f5-9c80-6343a8ecf3fc",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "英语基础"
+        }
+      ]
+    },
+    {
+      "key": "a70d2cce-1384-4a55-a8a0-52b32df0ef54",
+      "parentKey": "e48dd622-0ea8-4ddf-86df-843cb88b1a69",
+      "subKeys": [
+        "f12b9f33-0d1d-4d2f-902b-f6c95a3aa2b4",
+        "c3637f1b-70d2-4bf7-bbfd-156febdf6f09"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "1. 内核配置"
+        }
+      ]
+    },
+    {
+      "key": "a6ad8298-2712-482e-8b30-a560504a4840",
+      "parentKey": "8c41e798-52f4-4b2e-a749-eabdbf30511f",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "单项链表"
+        }
+      ]
+    },
+    {
+      "key": "1ff57107-cdef-4020-8144-9b8c0d197521",
+      "parentKey": null,
+      "subKeys": [
+        "8047d670-e9c5-42ad-b634-fe919d462691",
+        "a14744b6-1e13-4fb7-935e-d3761b0b2bf9",
+        "8a93c765-3f87-4f46-84b7-f00c480124cf",
+        "e25c0a9a-e1c7-4d07-9764-fa925538ae21",
+        "44f175c9-9019-41d4-964d-b2301865c4bd"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "嵌入式linux软件开发"
+        }
+      ]
+    },
+    {
+      "key": "110af5bf-c02e-449c-8ae2-db2ba6df04a1",
+      "parentKey": "b0f11d99-6f74-47ee-bb74-47ed1dde4a80",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "设备树"
+        }
+      ]
+    },
+    {
+      "key": "0ba866bf-ef30-45a6-a911-11351805490b",
+      "parentKey": "fccb10c0-e975-4e7d-8789-442aa7913f2f",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "6. 构建编译环境"
+        }
+      ]
+    },
+    {
+      "key": "a7b654bd-e1fd-47c2-a76e-b6c97d40255c",
+      "parentKey": "fbe3a55f-20e3-424d-8a62-3ce28d0f3075",
+      "subKeys": [
+        "7850c363-1e3d-4385-93bc-7352756b6972"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "字符设备驱动开发"
+        }
+      ]
+    },
+    {
+      "key": "f78cae65-756c-42de-8379-d01bc3d1a56d",
+      "parentKey": "cb308601-7f38-40bb-a646-449eb88f5019",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "ftp"
+        }
+      ]
+    },
+    {
+      "key": "e48dd622-0ea8-4ddf-86df-843cb88b1a69",
+      "parentKey": "8e1ae33d-9098-426f-9cb5-f3ca2cdedc5f",
+      "subKeys": [
+        "a70d2cce-1384-4a55-a8a0-52b32df0ef54",
+        "4bb5d214-bcb2-419c-96c9-e1b6ba4ce098",
+        "e75121fe-917c-4356-8444-43696a9d4fd7",
+        "e9e7986d-4bd5-4b9b-bf6e-04ca6cec3998"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "技术点"
+        }
+      ]
+    },
+    {
+      "key": "aa7280e0-3913-46d2-b1c9-7745bff13d4d",
+      "parentKey": "36cec842-0585-4512-aae0-23619173d0d8",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Makefile"
+        }
+      ]
+    },
+    {
+      "key": "c3637f1b-70d2-4bf7-bbfd-156febdf6f09",
+      "parentKey": "a70d2cce-1384-4a55-a8a0-52b32df0ef54",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "b. menuconfig"
+        }
+      ]
+    },
+    {
+      "key": "e645e032-184d-424d-a8c9-86ceafa3ea82",
+      "parentKey": "82bc8b9f-2e2b-4d53-9c4d-2794f5e0c28e",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "as"
+        }
+      ]
+    },
+    {
+      "key": "093da8bb-283b-43fe-af0d-a758ada411ad",
+      "parentKey": "d55f83d3-ce96-4473-8b9c-fb40cf9e0406",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "b. 网络编程"
+        }
+      ]
+    },
+    {
+      "key": "ee3661ef-0277-4230-bdf5-1576ed29e70b",
+      "parentKey": "9e9cb872-d11b-4ddf-8ebf-2e29d491ba90",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "kermit"
+        }
+      ]
+    },
+    {
+      "key": "412542f2-5115-4dac-8509-3990199552aa",
+      "parentKey": "e8a7efee-1ad4-48f1-99b9-21ac19cfdefc",
+      "subKeys": [
+        "05079e93-57f6-4ff2-8e98-ecc55ef30f22"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Linker"
+        }
+      ]
+    },
+    {
+      "key": "632afddc-d38a-44b4-a7a4-471c7e6162ee",
+      "parentKey": "8a93c765-3f87-4f46-84b7-f00c480124cf",
+      "subKeys": [
+        "8c41e798-52f4-4b2e-a749-eabdbf30511f",
+        "685f8f66-5d07-4fe8-ab7a-e1269e636bf9",
+        "84675c6d-5dc0-425e-9632-006a2436e15a",
+        "0e2ce855-a16e-43c4-842e-11f0b11ad2d0"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "数据结构"
+        }
+      ]
+    },
+    {
+      "key": "a356f1bd-eff6-4670-9a8d-7bda3fea4a61",
+      "parentKey": "84632f1e-13f2-44da-b3a7-80d7533dfca7",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "strip"
+        }
+      ]
+    },
+    {
+      "key": "2c156402-e131-4b85-badd-45721f814b06",
+      "parentKey": "a14744b6-1e13-4fb7-935e-d3761b0b2bf9",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "基础命令"
+        }
+      ]
+    },
+    {
+      "key": "05079e93-57f6-4ff2-8e98-ecc55ef30f22",
+      "parentKey": "412542f2-5115-4dac-8509-3990199552aa",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "ld"
+        }
+      ]
+    },
+    {
+      "key": "35a55841-a06e-4eed-b49e-b8a0cafe6939",
+      "parentKey": "84632f1e-13f2-44da-b3a7-80d7533dfca7",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "elfedit"
+        }
+      ]
+    },
+    {
+      "key": "1ea967a3-b6d6-4814-a4f8-3a7060f5ccf0",
+      "parentKey": "8b2edab4-1e2e-4c7b-a644-67c52293f93c",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "tfc-agent"
+        }
+      ]
+    },
+    {
+      "key": "84632f1e-13f2-44da-b3a7-80d7533dfca7",
+      "parentKey": "e8a7efee-1ad4-48f1-99b9-21ac19cfdefc",
+      "subKeys": [
+        "b7233adf-1e53-4494-9d41-ec96721b38f0",
+        "db5c870c-aee4-4dc9-8067-ef3a5d67d8de",
+        "bbe09d3e-fff4-419f-a741-687b58447485",
+        "2207d331-349a-4383-8d14-08b1ea501ac2",
+        "10f7090e-a263-46e9-a6a7-775f1a277eae",
+        "16a53903-a896-4f94-b0e9-a76b5fb9e45f",
+        "bd06be8c-7fe8-4a4e-8856-656e88e235a9",
+        "a356f1bd-eff6-4670-9a8d-7bda3fea4a61",
+        "06f73f48-1d82-4ae1-b2e8-5a6c2641764b",
+        "703ba177-51df-48b9-b352-7176eb6eb2d6",
+        "28ca4cc0-8279-4530-a68b-2df0eb982275",
+        "35a55841-a06e-4eed-b49e-b8a0cafe6939"
+      ],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Binary Utilities"
+        }
+      ]
+    },
+    {
+      "key": "9cd7a635-e708-4457-8763-5374847f423e",
+      "parentKey": "7bb3b3b7-5bf4-43f5-9c80-6343a8ecf3fc",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "寄存器配置"
+        }
+      ]
+    },
+    {
+      "key": "5e399c73-2481-4585-bead-f62979bf75bd",
+      "parentKey": "ef9f90f7-103e-4bc2-876a-f7ef0c5dcc68",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "make"
+        }
+      ]
+    },
+    {
+      "key": "178b640a-b2ac-47eb-a47f-e6d448cfd50c",
+      "parentKey": "90de2bcc-a550-4760-966e-5fa8ce4db9c6",
+      "subKeys": [
+        "7e491191-b369-418a-86b8-c3bff7ca8810"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "windows"
+        }
+      ]
+    },
+    {
+      "key": "84675c6d-5dc0-425e-9632-006a2436e15a",
+      "parentKey": "632afddc-d38a-44b4-a7a4-471c7e6162ee",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "栈"
+        }
+      ]
+    },
+    {
+      "key": "c8a0686f-1ae8-4400-87b4-ab8d8078a473",
+      "parentKey": "cadefcb5-2208-4847-ab2b-03bcadbe73dd",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "VMware"
+        }
+      ]
+    },
+    {
+      "key": "fccb10c0-e975-4e7d-8789-442aa7913f2f",
+      "parentKey": "db62470f-c476-4ab9-8f30-d3c36cdeaf12",
+      "subKeys": [
+        "e6799c76-0d04-4031-936a-21cf9bbe2433",
+        "d63aa745-dcb0-4482-8741-7dbe6cc8489a",
+        "c5f3af0e-7ef2-4b0f-b950-b29490cc74f7",
+        "d55f83d3-ce96-4473-8b9c-fb40cf9e0406",
+        "3af5c4ab-8e30-4d58-a06f-f94e331c6cf0",
+        "0ba866bf-ef30-45a6-a911-11351805490b"
+      ],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "技术点"
+        }
+      ]
+    },
+    {
+      "key": "bb7ae665-7e42-4779-8daa-6a9a727feeb6",
+      "parentKey": "ac0552cd-4274-42c6-8b63-c01b20caf03f",
+      "subKeys": [
+        "15dd77bd-d261-48a0-a146-0ea30094e050",
+        "9173be21-b85c-49d6-8b6d-f2a79a66139a",
+        "0750709b-9557-4695-adbb-51298ea9a017",
+        "2517792e-1827-4340-9de2-2662b7280371"
+      ],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "技术点"
+        }
+      ]
+    },
+    {
+      "key": "9a7ece45-b6e9-4e02-834b-28df04aa686e",
+      "parentKey": "bb0ac24d-3b57-44af-9367-ffa3eddbe0a8",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "flash"
+        }
+      ]
+    },
+    {
+      "key": "cd9c9d98-f225-4086-b0c7-11d4014189f2",
+      "parentKey": "9173be21-b85c-49d6-8b6d-f2a79a66139a",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "a. 了解常用汇编"
+        }
+      ]
+    },
+    {
+      "key": "82bc8b9f-2e2b-4d53-9c4d-2794f5e0c28e",
+      "parentKey": "e8a7efee-1ad4-48f1-99b9-21ac19cfdefc",
+      "subKeys": [
+        "e645e032-184d-424d-a8c9-86ceafa3ea82"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Assembler"
+        }
+      ]
+    },
+    {
+      "key": "28ca4cc0-8279-4530-a68b-2df0eb982275",
+      "parentKey": "84632f1e-13f2-44da-b3a7-80d7533dfca7",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "readelf"
+        }
+      ]
+    },
+    {
+      "key": "62b6a609-2f3b-481e-9430-06d7e3f00d7a",
+      "parentKey": "c5d7f117-b811-430f-8288-53e7702380e0",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "c++"
+        }
+      ]
+    },
+    {
+      "key": "5d0236c6-612a-4d14-a858-64a5821fa79f",
+      "parentKey": "fbe3a55f-20e3-424d-8a62-3ce28d0f3075",
+      "subKeys": [
+        "bb0ac24d-3b57-44af-9367-ffa3eddbe0a8"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "块设备驱动开发"
+        }
+      ]
+    },
+    {
+      "key": "8b2edab4-1e2e-4c7b-a644-67c52293f93c",
+      "parentKey": "eb715261-4b07-4dce-b642-84a826543c52",
+      "subKeys": [
+        "1ea967a3-b6d6-4814-a4f8-3a7060f5ccf0"
+      ],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "调试工具"
+        }
+      ]
+    },
+    {
+      "key": "f06aad98-ba62-4a8a-a600-152a299c6373",
+      "parentKey": "81420494-bc8e-43dc-825e-87bed0847d7a",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "gcc编译套件"
+        }
+      ]
+    },
+    {
+      "key": "bb0ac24d-3b57-44af-9367-ffa3eddbe0a8",
+      "parentKey": "5d0236c6-612a-4d14-a858-64a5821fa79f",
+      "subKeys": [
+        "9a7ece45-b6e9-4e02-834b-28df04aa686e",
+        "0344b60f-6383-4515-a268-334905049d06"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "设备"
+        }
+      ]
+    },
+    {
+      "key": "2d429248-91a2-428e-8f45-9e7b2211d3a6",
+      "parentKey": "cadefcb5-2208-4847-ab2b-03bcadbe73dd",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Ubuntu"
+        }
+      ]
+    },
+    {
+      "key": "0f38b375-9548-43f5-8660-f4bf2641ff19",
+      "parentKey": "a14744b6-1e13-4fb7-935e-d3761b0b2bf9",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "shell脚本"
+        }
+      ]
+    },
+    {
+      "key": "bbe09d3e-fff4-419f-a741-687b58447485",
+      "parentKey": "84632f1e-13f2-44da-b3a7-80d7533dfca7",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "objcopy"
+        }
+      ]
+    },
+    {
+      "key": "ce4aa9f5-b7cd-4a21-b922-da52f5608869",
+      "parentKey": "7bb3b3b7-5bf4-43f5-9c80-6343a8ecf3fc",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "时序分析"
+        }
+      ]
+    },
+    {
+      "key": "eb715261-4b07-4dce-b642-84a826543c52",
+      "parentKey": "44f175c9-9019-41d4-964d-b2301865c4bd",
+      "subKeys": [
+        "c5d3bdc8-c625-4be4-8bef-5fea4242989a",
+        "8b2edab4-1e2e-4c7b-a644-67c52293f93c",
+        "cb308601-7f38-40bb-a646-449eb88f5019"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "工具"
+        }
+      ]
+    },
+    {
+      "key": "36cec842-0585-4512-aae0-23619173d0d8",
+      "parentKey": "a14744b6-1e13-4fb7-935e-d3761b0b2bf9",
+      "subKeys": [
+        "aa7280e0-3913-46d2-b1c9-7745bff13d4d"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "构建（简化编译）"
+        }
+      ]
+    },
+    {
+      "key": "81420494-bc8e-43dc-825e-87bed0847d7a",
+      "parentKey": "a14744b6-1e13-4fb7-935e-d3761b0b2bf9",
+      "subKeys": [
+        "f06aad98-ba62-4a8a-a600-152a299c6373"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "编译"
+        }
+      ]
+    },
+    {
+      "key": "685f8f66-5d07-4fe8-ab7a-e1269e636bf9",
+      "parentKey": "632afddc-d38a-44b4-a7a4-471c7e6162ee",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "队列"
+        }
+      ]
+    },
+    {
+      "key": "590c2e3e-1362-42c7-97ea-1c485b81cd7a",
+      "parentKey": "8c41e798-52f4-4b2e-a749-eabdbf30511f",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "双向循环链表"
+        }
+      ]
+    },
+    {
+      "key": "b7233adf-1e53-4494-9d41-ec96721b38f0",
+      "parentKey": "84632f1e-13f2-44da-b3a7-80d7533dfca7",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "ar"
+        }
+      ]
+    },
+    {
+      "key": "06f73f48-1d82-4ae1-b2e8-5a6c2641764b",
+      "parentKey": "84632f1e-13f2-44da-b3a7-80d7533dfca7",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "c++filt"
+        }
+      ]
+    },
+    {
+      "key": "0750709b-9557-4695-adbb-51298ea9a017",
+      "parentKey": "bb7ae665-7e42-4779-8daa-6a9a727feeb6",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "3. Makefile"
+        }
+      ]
+    },
+    {
+      "key": "2ca9849d-be29-4161-a326-f112f1627318",
+      "parentKey": "8a93c765-3f87-4f46-84b7-f00c480124cf",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "基础"
+        }
+      ]
+    },
+    {
+      "key": "f3807bae-8772-48ba-a532-673d49890370",
+      "parentKey": "0e2ce855-a16e-43c4-842e-11f0b11ad2d0",
+      "subKeys": [
+        "d00c66cf-22cf-4464-9bbb-226fb0f2b521",
+        "92129be9-309e-4bd0-9da6-6a65b362aa55",
+        "69cfb23d-49a1-4412-8f8f-c4f2a9202f0b"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "二叉树"
+        }
+      ]
+    },
+    {
+      "key": "eb3edd65-4ee5-4b06-9cfb-7dafbf5e9bc7",
+      "parentKey": "c5d7f117-b811-430f-8288-53e7702380e0",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "gcc"
+        }
+      ]
+    },
+    {
+      "key": "c3a083e8-3ad0-426e-89a1-66990376246a",
+      "parentKey": "e8a7efee-1ad4-48f1-99b9-21ac19cfdefc",
+      "subKeys": [
+        "2831c08c-4ef8-4217-bc74-22c183e077f4"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Debugger"
+        }
+      ]
+    },
+    {
+      "key": "0e2ce855-a16e-43c4-842e-11f0b11ad2d0",
+      "parentKey": "632afddc-d38a-44b4-a7a4-471c7e6162ee",
+      "subKeys": [
+        "f3807bae-8772-48ba-a532-673d49890370"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "树"
+        }
+      ]
+    },
+    {
+      "key": "4ad60757-6aeb-44f0-936d-080c4ad2ca08",
+      "parentKey": "6741e4ad-e6c0-4d42-a882-b878ba9e5a47",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "1 自制"
+        },
+        {
+          "type": "DESC",
+          "data": "无优化，只适合diy"
+        }
+      ]
+    },
+    {
+      "key": "cb308601-7f38-40bb-a646-449eb88f5019",
+      "parentKey": "eb715261-4b07-4dce-b642-84a826543c52",
+      "subKeys": [
+        "90de2bcc-a550-4760-966e-5fa8ce4db9c6",
+        "f78cae65-756c-42de-8379-d01bc3d1a56d",
+        "7d71384d-edff-401f-b8fe-5a2eb9fb0184",
+        "06bcadce-0d89-4921-acd3-91220cfae9cb"
+      ],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "开发工具"
+        }
+      ]
+    },
+    {
+      "key": "0c63400c-a5ec-4c3e-a6b0-12fa888b4c76",
+      "parentKey": "ef9f90f7-103e-4bc2-876a-f7ef0c5dcc68",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "./configure"
+        }
+      ]
+    },
+    {
+      "key": "92129be9-309e-4bd0-9da6-6a65b362aa55",
+      "parentKey": "f3807bae-8772-48ba-a532-673d49890370",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "平衡二叉树"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 0,
+    "theme": {
+      "name": "theme2",
+      "randomColor": false,
+      "background": "#f8f8f8",
+      "highlightColor": "#50C9CE",
+      "marginH": 45,
+      "marginV": 10,
+      "contentStyle": {
+        "lineHeight": "1.5"
+      },
+      "linkStyle": {
+        "lineRadius": 5
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "background": "#50C18A",
+          "color": "#fff",
+          "fontSize": "34px",
+          "borderRadius": "5px",
+          "padding": "16px 18px 16px 18px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "2px",
+          "lineColor": "#43a9ff"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "background": "#ffffff",
+          "borderWidth": "1px",
+          "borderStyle": "solid",
+          "borderColor": "rgb(221, 170, 68)",
+          "borderRadius": "5px",
+          "color": "rgb(103,103,103)",
+          "fontSize": "14px",
+          "padding": "6px 10px 5px 10px"
+        },
+        "subLinkStyle": {
+          "lineType": "round",
+          "lineRadius": 5,
+          "lineWidth": "2px",
+          "lineColor": "#43a9ff"
+        }
+      },
+      "normalTopic": {
+        "contentStyle": {
+          "background": "#fff",
+          "borderRadius": "5px",
+          "color": "rgb(103,103,103)",
+          "fontSize": "13px",
+          "padding": "3px 9px 4px",
+          "boxShadow": "1px 1px 1px #ccc"
+        },
+        "subLinkStyle": {
+          "lineType": "round",
+          "lineRadius": 5,
+          "lineWidth": "1px",
+          "lineColor": "#43a9ff"
+        }
+      }
+    }
+  },
+  "formatVersion": "0.0"
+}
