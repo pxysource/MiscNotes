@@ -47,6 +47,7 @@ stty -F /dev/ttyUSB0 speed 115200 cs8 -parenb -cstopb -echo raw
 ## 参数说明
 
 - 特殊字符：
+
 |字符|说明|
 |:---|:---|
 |* dsusp 字符   |每当输入刷新时会发送一个用于终端阻塞信号的字符        |
@@ -66,6 +67,7 @@ stty -F /dev/ttyUSB0 speed 115200 cs8 -parenb -cstopb -echo raw
 | * werase 字符 |擦除前一个输入的单词的字符                          |
 
 - 特殊设置：
+
 |字符|说明|
 |:---|:---|
 |  N            |      设置输入输出速度为N 波特                                           |
@@ -81,6 +83,7 @@ stty -F /dev/ttyUSB0 speed 115200 cs8 -parenb -cstopb -echo raw
 |   time N      |     和-icanon 配合使用，设置读取超时为N 个十分之一秒                     |
 
 - 控制设置：
+
 |字符|说明|
 |:---|:---|
 |   [-]clocal     |     禁用调制解调器控制信号                                  |
@@ -94,6 +97,7 @@ stty -F /dev/ttyUSB0 speed 115200 cs8 -parenb -cstopb -echo raw
 |   [-]parodd     |    设置校验位为奇数 (配合"-"则为偶数)                       |
 
 - 输入设置：
+
 |字符|说明|
 |:---|:---|
 |   [-]brkint    |       任务中断会触发中断信号                           |
@@ -114,6 +118,7 @@ stty -F /dev/ttyUSB0 speed 115200 cs8 -parenb -cstopb -echo raw
 |   [-]tandem    |      等于[-]ixoff                                     |
 
 - 输出设置：
+
 |字符|说明|
 |:---|:---|
 | * bsN       |   退格延迟的风格，N 的值为0 至1                  |
@@ -134,6 +139,7 @@ stty -F /dev/ttyUSB0 speed 115200 cs8 -parenb -cstopb -echo raw
 | * vtN       |     垂直制表符延迟的风格，N 的值为0 至1          |
 
 - 本地设置：
+
 |字符|说明|
 |:---|:---| 
 |   [-]crterase | 擦除字符回显为退格符                                  |
@@ -156,6 +162,7 @@ stty -F /dev/ttyUSB0 speed 115200 cs8 -parenb -cstopb -echo raw
 | * [-]xcase    | 和icanon 配合使用，用转义符"\"退出大写状态              | 
 
 - 综合设置：
+
 |字符|说明|
 |:---|:---|
 | * [-]LCASE    | 等于[-]lcase                                                                         |
