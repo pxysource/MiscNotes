@@ -36,12 +36,41 @@ pause
 
 # 文件操作
 
-## 1
+## 检查文件是否存在 ：exist
 
 ```bat
 @echo off
 if exist Test.txt copy %CD%\Test.txt "C:\Users\pc-2020-4-20\Desktop\"
 pause
+```
+
+## 复制文件：copy
+
+```bat
+@echo off
+if exist Test.txt copy %CD%\Test.txt "C:\Users\pc-2020-4-20\Desktop\"
+pause
+```
+
+## 相对路径转换为绝对路径
+
+脚本所在路径：`C:\Users\pc-2020-4-20\Desktop\test.bat`
+
+```bat
+@echo off
+set "relativePath=..\xx"
+for %%i in ("%relativePath%") do (
+    set "absolutePath=%%~fi"
+)
+echo %absolutePath%
+pause
+```
+
+输出：
+
+```
+C:\Users\pc-2020-4-20\xx
+请按任意键继续. . .
 ```
 
 # 注册表
@@ -96,6 +125,25 @@ equal
 ```
 
 # 变量
+
+## 预定义变量
+
+### 当前路劲：CD
+
+脚本所在路径：`C:\Users\pc-2020-4-20\Desktop\test.bat`
+
+```bat
+@echo off
+echo %CD%
+pause
+```
+
+输出：
+
+```
+C:\Users\pc-2020-4-20\Desktop
+请按任意键继续. . .
+```
 
 ## 局部变量
 
