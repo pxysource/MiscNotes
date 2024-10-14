@@ -1,4 +1,0 @@
-```shell
-sudo passwd root
-```
-
