@@ -1,4 +1,20 @@
+# 符号
+
+## 重定向：`>`
+
+### 输出错误到stderr
+
+```shell
+#!/bin/sh
+
+AA=$(ls xxx 2>/dev/null)
+if [ ! "$?" = "0" ]; then
+    echo "error" 1>&2
+fi 
+```
+
 # strings 
+
 - 在对象文件或二进制文件中查找可打印的字符串
 
 ## 实例
