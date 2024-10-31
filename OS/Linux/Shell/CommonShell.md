@@ -92,3 +92,20 @@ user    0m0.002s
 sys     0m0.000s
 ```
 
+# pgrep
+
+根据程序的名称，获取程序的`pid`
+
+```shell
+zynq> pgrep Lti6
+1476
+```
+
+# 使用示例
+
+## 根据应用名称kill应用程序
+
+```shell
+zynq> pgrep Lti6 | xargs kill -9
+```
+
