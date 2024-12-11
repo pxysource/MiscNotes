@@ -1,12 +1,27 @@
-# 1 将Qt程序打包发布（文件夹）
+# Qt程序打包发布（文件夹）
 
-1. 将构建程序改为Release，然后构建项目。之后，在源文件夹内多了一个带有Release字样的文件夹。
+项目目录：
 
-2. 将该文件夹内的可执行程序（xxx.exe），复制到一个新的文件夹。
+```
+RootDir
+   |--------build-SvarMonitor-Desktop_Qt_5_14_2_MinGW_32_bit-Release
+   |--------setup
+   |--------project
+              |--------script
+                         |--------Pack.bat
+```
 
-3. 打开命令行工具（Qt自带的命令行工具），然后cd到你建立的新文件夹（cd是命令），使用命令：windeployqt xxx.exe
+## 方法1
 
-OK，完成以上三步以后，就可以点击exe文件直接运行了。
+1. 将构建程序改为Release，然后构建项目。
+
+2. 将该文件夹内的可执行程序（`project.exe`），复制到一个新的文件夹（如`setup`目录）。
+
+3. 打开命令行工具（Qt自带的命令行工具，如`Qt 5.14.2 (MinGW 7.3.0 32-bit)`），然后进入建立的新文件夹，使用命令：`windeployqt project.exe`
+
+## 方法2
+
+将`Pack.bat`放到工程对应的目录下，然后执行。
 
 # 2 将QT程序打包成一个可执行文件（EXE）
 
