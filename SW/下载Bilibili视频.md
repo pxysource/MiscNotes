@@ -1,6 +1,6 @@
 # downkyicore
 
-1. 下载`downkyicore`，downkyicore：https://github.com/yaobiao131/downkyicore。
+1. 下载`downkyicore`，downkyicore：https://github.com/yaobiao131/downkyicore
 
 2. 登录`Bilibili`账号（下载最高清晰度）
 
