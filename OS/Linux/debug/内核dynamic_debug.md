@@ -14,7 +14,13 @@
 .config - Linux/arm 3.8.0 Kernel Configuration
  ─────────────────── Search Results ───────────────────────────
  
-  Symbol: DYNAMIC_DEBUG [=y]                                                                                   Type  : boolean                                                                                             Prompt: Enable dynamic printk() support                                                                       Defined at lib/Kconfig.debug:1358                                                                           Depends on: PRINTK [=y] && DEBUG_FS [=y]                                                                     Location:                                                                                                 (1) -> Kernel hacking 
+  Symbol: DYNAMIC_DEBUG [=y]
+  type  : boolean
+  Prompt: Enable dynamic printk() support
+    Defined at lib/Kconfig.debug:1358
+    Depends on: PRINTK [=y] && DEBUG_FS [=y]
+    Location:
+  (1) -> Kernel hacking 
 ```
 
 设置`DYNAMIC_DEBUG`：
@@ -88,3 +94,5 @@ crt.Screen.Send "setenv bootargs console=ttyPS0,115200 root=/dev/ram rw earlypri
 ```
 
 :warning: 注意`bootargs`不能太长！
+
+# 3 分析
