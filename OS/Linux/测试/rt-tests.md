@@ -202,6 +202,52 @@ install_get_cyclictest_snapshot: get_cyclictest_snapshot
 
 使用文档参考[rt-tests doc][4]
 
+## cyclictest
+
+LD_LIBRARY_PATH=. ./cyclictest -l 100000000 -m -Sp99 -i200 -h400 -q
+
+- `-l`：
+
+  > [**-l, --loops=LOOPS**](https://man.archlinux.org/man/cyclictest.8.en#l,)
+  >
+  > 设置循环次数。默认值为 0（无限循环）。此选项对于具有给定测试循环次数的自动测试非常有用。一旦达到计时器间隔次数，循环测试就会停止。
+
+- `-m`:
+
+  > [**-m, --mlockall**](https://man.archlinux.org/man/cyclictest.8.en#m,)
+  >
+  > 锁定当前和未来的内存分配以防止paged out
+
+- `-S`：
+
+  > [**-S, --smp**](https://man.archlinux.org/man/cyclictest.8.en#S,)
+  >
+  > 为SMP系统设置标准测试选项。其作用等同于使用选项 `"-t -a"`，同时确保所有线程的指定优先级保持一致。
+
+- `-p`：
+
+  > [**-p, --prio=PRIO**](https://man.archlinux.org/man/cyclictest.8.en#p,)
+  >
+  > 设置第一个线程的优先级。指定的优先级会应用于第一个测试线程，每个后续线程的优先级会逐渐降低：
+  > 优先级（线程 N）= max（优先级（线程 N-1） - 1, 0）。
+
+- `-i`：
+
+  > -i, --interval=INTV
+  > 以微秒为单位设置线程的基本间隔（默认值为 1000us）。这将设置第一个线程的间隔。
+
+- `-h`：
+
+  > [**-h, --histogram=US**](https://man.archlinux.org/man/cyclictest.8.en#h,)
+  >
+  > 运行后将延迟直方图转储到标准输出。US 是要跟踪的最大延迟时间（以微秒为单位）。此选项以相同优先级运行所有线程。
+
+- `-q`：
+
+  > [**-q, --quiet**](https://man.archlinux.org/man/cyclictest.8.en#q,)
+  >
+  > 仅在退出时打印摘要。对于自动化测试很有用，因为只需要捕获摘要输出。
+
 # 引用
 
 [1]: https://www.msys2.org/	"msys2"
