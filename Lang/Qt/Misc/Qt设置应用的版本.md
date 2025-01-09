@@ -13,7 +13,7 @@
 
 windows下安装[TortoiseSVN](https://tortoisesvn.net/index.zh.html)，注意，一定要选择安装命令行工具，后需要使用其中的命令行工具。
 
-![](设置应用的版本/SvnSetup.PNG)
+![](Qt设置应用的版本/SvnSetup.PNG)
 
 ### pri文件中设置版本信息
 
