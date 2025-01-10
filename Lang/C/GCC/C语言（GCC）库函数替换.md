@@ -1,4 +1,4 @@
-# 方法1
+# 方法1：替换少量函数
 
 测试代码：
 
@@ -38,9 +38,9 @@ This is my malloc.
 a
 ```
 
-# 方法2
+# 方法2：替换大量函数
 
-posxi.wrappers文件：
+`posxi.wrappers`文件内容：
 
 ```
 --wrap malloc
