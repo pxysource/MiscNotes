@@ -4,7 +4,7 @@ yt-dlp：https://github.com/yt-dlp/yt-dlp
 
 目前支持的网站列表：https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md
 
-OS：Windows
+OS：`Windows`
 
 # 简单用法
 
@@ -12,20 +12,21 @@ OS：Windows
 
 如：`yt-dlp.exe https://www.youtube.com/watch?v=1QZOdURNBcE `
 
-- `URL`：可以是完整路径，也可以是后面的`1QZOdURNBcE`。
-
-  :warning: 注意复制网址的时候，尽量不要复制后面的`t=`多少秒这些信息。因为这些信息没有用。 
-
+- `URL`：可以是完整路径，也可以是后面的`1QZOdURNBcE`。 
 - 下载的文件就在`yt-dlp`所在的目录，格式有可能是`webm`。
 
-# 下载MP4 视频
 
-下载MP4 格式：
 
-- 借助ffmpeg工具包转换为Mp4 ffmpeg工具包。
+:warning: 注意复制网址的时候，尽量不要复制后面的`t=`多少秒这些信息。因为这些信息没有用。
+
+# 下载`MP4`视频
+
+下载`MP4`格式：
+
+- 借助`ffmpeg`工具转换为`Mp4` 。
 - 借助后面音视频组合的下载方式 ，在下文中体现。
 
-## ffmpeg转换为Mp4
+## `ffmpeg`转换为`Mp4`
 
 举例： `yt-dlp.exe --merge-output-format mp4 https://www.youtube.com/watch?v=1QZOdURNBcE`
 
@@ -134,3 +135,79 @@ yt-dlp.exe https://www.youtube.com/watch?v=f8yA1jGhpfk&list=PL8mPWv3h4qJeg6iH5yt
 # 如何升级yt-dlp的版本 
 
 执行`yt-dlp.exe -U` ，即可完成版本升级，更新到最新的Release版本。
+
+# 2025-01-12使用方法
+
+## 环境
+
+### Windows
+
+> Edition	Windows 11 Pro
+> Version	23H2
+> Installed on	‎2022/‎10/‎6
+> OS build	22631.4602
+> Experience	Windows Feature Experience Pack 1000.22700.1055.0
+
+### Google chrome
+
+> Version 131.0.6778.205 (Official Build) (64-bit)
+
+### yt-dlp
+
+> yt-dlp 2024.12.23
+
+## 设置yt-dlp环境
+
+### 安装yt-dlp
+
+1. 下载[yt-dlp](https://github.com/yt-dlp/yt-dlp/releases/tag/2024.12.23)，选择`yt-dlp_win.zip`。
+2. 解压`yt-dlp_win.zip`（无需安装） —> `yt-dlp_win`。
+
+### 创建插件目录
+
+在`yt-dlp_win`目录下`yt-dlp.exe`同级目录下，创建插件目录`yt-dlp-plugins`。
+
+### 安装插件
+
+1. 下载插件[bgutil-ytdlp-pot-provider 0.7.2](https://github.com/Brainicism/bgutil-ytdlp-pot-provider/releases/tag/0.7.2)，选择下载`zip`文件，放入插件目录`yt-dlp-plugins`。
+2. 下载插件[yt-dlp-get-pot v0.2.0](https://github.com/coletdjnz/yt-dlp-get-pot/releases/tag/v0.2.0)，选择下载`zip`文件，放入插件目录`yt-dlp-plugins`。
+
+## 获取YouTube cookie
+
+1. Google chrome安装[Get cookies.txt LOCALLY](https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc?utm_source=ext_app_menu)。
+2. 进入`https://music.youtube.com/watch?v=OZytLLasceA&list=RDAMVMqXU1maQ9eFA`，播放任意视频。（已在此页面，进行刷新即可）
+3. 运行`chrome`插件`Get cookies.txt LOCALLY`，提取`cookie`，保存到文件`cookies.txt`。
+4. 修改配置文件，`--cookies cookies.txt`。（改为对应的文件名称）
+
+出现需要登录的情况（如下），重复2~4。
+
+>ERROR: [youtube+GetPOT] QSRjbYM-eN4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+
+## 设置PO_TOKEN
+
+安装`bgutil-ytdlp-pot-provider`和`yt-dlp-get-pot`实现。
+
+## yt-dlp配置文件
+
+配置文件放置在`yt-dlp_win`目录下`yt-dlp.exe`同级目录。
+
+`yt-dlp.conf`：
+
+```
+--no-playlist
+--output "E:/Videos/YouTube/ITZY/%(uploader)s/%(title)s-%(resolution)s.%(ext)s"
+--console-title --progress-template "download-title:%(info.id)s-%(progress.eta)s"
+--merge-output-format mp4
+--sub-langs "en.*,zh-Hans"
+--embed-subs
+--embed-thumbnail 
+--embed-metadata
+--convert-subs srt
+--ffmpeg-location D:/NoInstallSoftware/ffmpeg-master-latest-win64-gpl/bin
+--extractor-args "youtube:player-client=mweb"
+--cookies music.youtube.com_cookies.txt
+```
+
+## 参考
+
+- https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies
