@@ -18,6 +18,8 @@ if exist %OutFile% del %OutFile%
 
 set StartTime=%time%
 
+@REM 找到第一个IPV4地址，也可不进行查找，设置为固定IPV4地址。
+@REM set IP=192.168.1.28
 for /f "delims=: tokens=2" %%i in ('ipconfig ^| find /i "IPv4 Address"') do (set IP=%%i)
 
 if "%IP%"=="" echo "no connection!" & pause & goto :EOF
