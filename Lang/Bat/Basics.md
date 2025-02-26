@@ -6,9 +6,65 @@
 - `/Q`：关闭echo。
 - `/K`或则`/C`：执行字符串指定的命令然后终止。
 
-# 特殊符号
+# 符号
 
-## 组合命令：`&`
+## 命令回显屏蔽：`@`
+
+### Example
+
+命令不使用`@`符号：
+
+`Test.bat`：
+
+```bat
+echo xxx
+echo yyy
+```
+
+运行输出：
+
+```cmd
+C:\Users\pc-2020-4-20\Desktop>C:\Users\pc-2020-4-20\Desktop\Test.bat
+
+C:\Users\pc-2020-4-20\Desktop>echo xxx
+xxx
+
+C:\Users\pc-2020-4-20\Desktop>echo yyy
+yyy
+
+C:\Users\pc-2020-4-20\Desktop>
+```
+
+-----------------
+
+命令使用`@`符号：
+
+`Test.bat`：
+
+```bat
+@echo xxx
+@echo yyy
+```
+
+运行输出：
+
+```cmd
+C:\Users\pc-2020-4-20\Desktop>C:\Users\pc-2020-4-20\Desktop\Test.bat
+xxx
+yyy
+
+C:\Users\pc-2020-4-20\Desktop>
+```
+
+## 批处理变量引导符：`%`
+
+## 命令管道符：`|`
+
+## 转移字符：`^`
+
+## 字符串界定符：`""`
+
+## 组合命令：`&` `&&` `||`
 
 ```bat
 echo 1 & echo 2
