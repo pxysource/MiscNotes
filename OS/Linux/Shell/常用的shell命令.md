@@ -273,9 +273,7 @@ linux@ubuntu:~$ echo "hello" | wc -
 
 # diff
 
-- 直接输出文件的不同
-
-```bash
+```shell
 linux@ubuntu:~$ cat 1.txt 
 1
 2
@@ -292,6 +290,11 @@ linux@ubuntu:~$ cat 2.txt
 7
 8
 9
+```
+
+## 1. 直接输出文件的不同
+
+```bash
 linux@ubuntu:~$ diff 1.txt 2.txt 
 5a6,9
 > 6
@@ -302,7 +305,7 @@ linux@ubuntu:~$
 
 ```
 
-- 将问价的不同输出到问价中
+## 2. 将文件的不同输出到新的文件
 
 ```bash
 linux@ubuntu:~$ diff 1.txt 2.txt >test.patch
@@ -313,6 +316,30 @@ linux@ubuntu:~$ cat test.patch
 > 8
 > 9
 linux@ubuntu:~$ 
+```
+
+## 3. 以"-/+"形式显示不同的内容
+
+```shell
+linux@linux-virtual-machine:/tmp/diff_test$ diff 1.txt 2.txt -u
+--- 1.txt       2025-06-03 14:02:09.593636945 +0800
++++ 2.txt       2025-06-03 14:02:28.241024010 +0800
+@@ -3,3 +3,7 @@
+ 3
+ 4
+ 5
++6
++7
++8
++9
+```
+
+## 4. 递归对比文件夹，如果某个文件不存在，不显示内容
+
+```shell
+linux@linux-virtual-machine:~/workspace/svn/ZhaoYang/branches/FmwOS/SysInstall$ sudo diff rootfs/tmp_mount/ /tmp/rootfs/tmp_mount/ -rq
+Only in /tmp/rootfs/tmp_mount/home: I7pProduceApp.elf
+Files rootfs/tmp_mount/home/installer.sh and /tmp/rootfs/tmp_mount/home/installer.sh differ
 ```
 
 # patch
@@ -433,5 +460,59 @@ stdio
 ```shell
 linux@linux-virtual-machine:~$ readlink -f .
 /home/linux
+```
+
+# date: 打印/设置系统日期时间
+
+获取当前系统日期时间：
+
+```shell
+zynq> date
+Tue Jan  6 00:27:23 UTC 1970
+```
+
+## 格式化输出
+
+获取当前系统日期：
+
+```shell
+zynq> date +"%Y-%m-%d"
+1970-01-06
+```
+
+获取当前系统时间：
+
+```shell
+zynq> date +"%H:%M:%S"
+14:44:07
+```
+
+获取当前系统日期时间：
+
+```shell
+zynq> date +"%Y-%m-%d %H:%M:%S"
+1970-01-06 00:49:58
+```
+
+## 设置系统日期时间
+
+```shell
+zynq> date -s "2025-06-09 14:38:00"
+Mon Jun  9 14:38:00 UTC 2025
+zynq> date +"%Y-%m-%d %H:%M:%S"
+2025-06-09 14:38:04
+zynq> 
+```
+
+## 检查命令的耗时
+
+```shell
+#!/bin/sh
+
+start=$(date +%s)
+sleep 2
+end=$(date +%s)
+diff=$((end-start))
+echo $diff seconds.
 ```
 
