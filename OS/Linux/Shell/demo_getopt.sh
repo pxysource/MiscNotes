@@ -57,8 +57,10 @@ while true; do
             shift
             if [[ -n "$1" ]]; then
                 INSTALL_PATH="$1"
-                shift
+            else
+                echo "[WARN] Install path is empty, use default!"
             fi
+            shift
             echo "install path: ${INSTALL_PATH}"
             ;;
         --version | -v)
