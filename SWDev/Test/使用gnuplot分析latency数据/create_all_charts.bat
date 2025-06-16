@@ -1,0 +1,5 @@
+@echo off
+call create_chart_dma_read.bat
+call create_chart_dma_write.bat
+call create_chart_irq_latency.bat
+call create_chart_dpc_latency.bat
