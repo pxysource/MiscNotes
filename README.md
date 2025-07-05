@@ -15,6 +15,20 @@ Notes
 
 ## Qt
 
+# OS
+
+## RTOS
+
+### LinuxPreemptRt
+
+#### utils
+
+- [x] `chrt`，查看/修改任务的优先级。
+
+### LinuxXenomai
+
+### zephyr
+
 # 资源（Resources）
 
 ## 视频
