@@ -56,7 +56,7 @@ The key's randomart image is:
 
 ```
 
-一直空格知道结束，密钥默认位置`~/.ssh/`：
+使用默认设置，一直确认（enter键）直到结束，密钥默认位置`~/.ssh/`：
 
 - id_rsa，私钥
 - id_rsa.pub，公钥
@@ -109,7 +109,7 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
-一直空格知道结束，密钥默认位置`~/.ssh/`：
+使用默认设置，一直确认（enter键）直到结束，密钥默认位置`~/.ssh/`：
 
 - id_ecdsa，私钥
 - id_ecdsa.pub，公钥
