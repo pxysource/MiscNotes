@@ -1,7 +1,3 @@
-# 简介
-
-`u-boot`启动`linux`使用的环境变量的笔记。
-
 # bootargs
 
 ## nfs挂载rootfs启动
