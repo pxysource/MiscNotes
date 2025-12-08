@@ -372,6 +372,110 @@ First Line
 
 ```
 
+## 相对路径转换位绝对路径
+
+```bat
+:ConvertPathRelToAbs
+setlocal
+set REF_PATH=%1
+set REL_PATH=%2
+for %%I in ("%REF_PATH%%REL_PATH%") do set ABS_PATH=%%~fI
+endlocal & set "%3=%ABS_PATH%"
+goto :eof
+```
+
+描述：将相对路径转换为绝对路径。
+
+参数：
+
+- `%1` [in]: 参考路径，相对路径的参考路径。（绝对路径）
+- `%2` [in]: 相对路径，相对于参考路径。 
+- `%3` [out]: 返回绝对路径。
+
+### Example
+
+```bat
+@echo off
+
+setlocal
+set CUR_PATH=%~dp0
+set REL_PATH=..\
+echo CUR_PATH=%CUR_PATH%
+echo REL_PATH=%REL_PATH%
+call :ConvertPathRelToAbs %CUR_PATH% %REL_PATH% ABS_PATH
+echo ABS_PATH=%ABS_PATH%
+endlocal
+goto :eof
+
+:ConvertPathRelToAbs
+setlocal
+set REF_PATH=%1
+set REL_PATH=%2
+for %%I in ("%REF_PATH%%REL_PATH%") do set ABS_PATH=%%~fI
+endlocal & set "%3=%ABS_PATH%"
+goto :eof
+
+```
+
+运行结果：
+
+```cmd
+C:\Users\pxy\Desktop\Tmp>Test.bat
+CUR_PATH=C:\Users\pxy\Desktop\Tmp\
+REL_PATH=..\
+ABS_PATH=C:\Users\pxy\Desktop\
+
+```
+
+## Windows路径转换为Linux路径
+
+```bat
+:ConvertPathWindowsToLinux
+setlocal enabledelayedexpansion
+set _WINDOWS_PATH=%1
+set _LINUX_PATH=!_WINDOWS_PATH:\=/!
+endlocal & set "%2=%_LINUX_PATH%"
+goto :eof 
+```
+
+描述：将`Windows`路径转换为`Linux`路径。
+
+参数：
+
+- `%1` [in]: `Windows`路径。
+- `%2 [out]`: 返回`Linux`路径。
+
+### Example
+
+```bat
+@echo off
+
+setlocal
+set WINDOWS_PATH=%~dp0
+echo WINDOWS_PATH=%WINDOWS_PATH%
+call :ConvertPathWindowsToLinux %WINDOWS_PATH% LINUX_PATH
+echo LINUX_PATH=%LINUX_PATH%
+endlocal
+goto :eof
+
+:ConvertPathWindowsToLinux
+setlocal enabledelayedexpansion
+set _WINDOWS_PATH=%1
+set _LINUX_PATH=!_WINDOWS_PATH:\=/!
+endlocal & set "%2=%_LINUX_PATH%"
+goto :eof 
+
+```
+
+运行结果：
+
+```cmd
+C:\Users\pxy\Desktop\Tmp>Test.bat
+WINDOWS_PATH=C:\Users\pxy\Desktop\Tmp\
+LINUX_PATH=C:/Users/pxy/Desktop/Tmp/
+
+```
+
 # 注册表
 
 ## 1
@@ -639,6 +743,92 @@ E:\WpsClound-Code\lang\bat\Function>Function.bat
 "call end"
 
 ```
+
+## 返回值
+
+### 无返回值使用`goto :eof`
+
+```bat
+@echo off
+
+setlocal
+call :SubFunc
+echo ErrorLevel=%ERRORLEVEL%
+endlocal
+goto :eof
+
+:SubFunc
+goto :eof 1
+
+```
+
+运行结果：
+
+```cmd
+C:\Users\pxy\Desktop\Tmp>Test.bat
+ErrorLevel=0
+
+```
+
+> [!IMPORTANT]
+>
+> `goto :eof`无法设置返回值。
+
+### 有返回值使用`exit /b xx`
+
+```bat
+@echo off
+
+setlocal
+call :SubFunc
+echo ErrorLevel=%ERRORLEVEL%
+endlocal
+goto :eof
+
+:SubFunc
+exit /b 1
+
+```
+
+运行结果：
+
+```cmd
+C:\Users\pxy\Desktop\Tmp>Test.bat
+ErrorLevel=1
+
+```
+
+## 返回数据
+
+通过参数返回数据。
+
+```bat
+@echo off
+
+setlocal
+call :Add 3 5 result
+echo Result=%result%
+endlocal
+goto :eof
+
+:Add
+setlocal
+set /a %tmp=%1 + %2
+endlocal & set "%3=%tmp%"
+goto :eof
+
+```
+运行结果：
+
+```cmd
+C:\Users\pxy\Desktop\Tmp>Test.bat
+Result=8
+
+```
+
+> [!IMPORTANT]
+>
+> 注意`setlocal/endlocal`，`endlocal`后`setlocal/endlocal`中的局部变量会失效，不要在`setlocal/endlocal`返回局部变量的值。
 
 # 字符串处理
 
